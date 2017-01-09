@@ -1,0 +1,22 @@
+[
+  {
+    "outputFileName": "bundle.js",
+    "inputFiles": [
+        "GC-Responsive-UI.js",
+        "delayLoadImages.js",
+        "georgianfeedback.js",
+        "checkeditmode.js",
+        //"EmergencyBroadcast.js",
+        "georgianuserprofileproperties.js"
+    ]
+  },
+  {
+    "outputFileName": "bundle.css",
+    "inputFiles": [
+      "GC_responsive_ui.css",
+      "summarylinks.css",
+      "georgianicon.css",
+      "georgianbrand2016.css"
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2015/12/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=2.1.1602.1, Culture=neutral, PublicKeyToken=3751622786b357c2" />
+  <pnp:Templates ID="CONTAINER-PNP-RESPONSIVE-UI-INFRASTRUCTURE">
+    <pnp:ProvisioningTemplate ID="PNP-RESPONSIVE-UI-INFRASTRUCTURE" Version="1">
+      <pnp:Files>
+        <!--<pnp:File Src="GC-Responsive-UI.js" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />-->
+        <!--<pnp:File Src="GC_responsive_ui.css" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
+        <pnp:File Src="georgianbrand2016.css" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
+        <pnp:File Src="summarylinks.css" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />-->
+        <!--<pnp:File Src="summarylinks.js" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
+        <pnp:File Src="hide_app_part.js" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
+        <pnp:File Src="georgianfeedback.js" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
+        <pnp:File Src="checkeditmode.js" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
+        <pnp:File Src="delayLoadImages.js" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />-->
+        <!--<pnp:File Src="Announcements.js" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />-->
+        <pnp:File Src="resize_app_part.js" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
+        <pnp:File Src="georgian_sharepoint_chrome.js" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
+        <pnp:File Src="bundle.min.css" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
+        <pnp:File Src="bundle.min.js" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
+
+        <pnp:File Src="Content\fabric.min.css" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
+        <pnp:File Src="Content\fabric.components.min.css" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
+        <pnp:File Src="Scripts\jquery.fabric.min.js" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
+        <pnp:File Src="Scripts\jquery-2.2.3.min.js" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
+
+        <pnp:File Src="fonts\georgian.eot" Folder="Style Library/SP.Responsive.UI/fonts" Overwrite="true" />
+        <pnp:File Src="fonts\georgian.svg" Folder="Style Library/SP.Responsive.UI/fonts" Overwrite="true" />
+        <pnp:File Src="fonts\georgian.ttf" Folder="Style Library/SP.Responsive.UI/fonts" Overwrite="true" />
+        <pnp:File Src="fonts\georgian.woff" Folder="Style Library/SP.Responsive.UI/fonts" Overwrite="true" />
+      </pnp:Files>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>

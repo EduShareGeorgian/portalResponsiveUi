@@ -1,0 +1,148 @@
+﻿ .cs_wrapper{
+  height:40px;
+  text-align:center;
+  position:relative;
+  left:0px;
+  color:#333;
+  font-family:'Segoe UI Web Light','Segoe UI Light','Segoe WP Light','Segoe UI','Segoe WP',Tahoma,Arial,sans-serif;
+  font-size:21px;
+  font-weight:normal;
+  line-height:36px;
+  margin-bottom:15px;
+}
+.cs_itemMain{
+  color:#f0f0f0;
+  z-index:10;
+    border:1px solid #222;
+    background-color:#222;
+  cursor:pointer;
+  text-align:left;
+  font-weight:bold;
+  text-indent:10px;
+  width:40px;
+  position:absolute;
+  top:0px;
+  left:0px;
+  height:40px;
+  text-transform:uppercase;
+}
+.cs_itemMain:hover{
+  color:#fff;
+}
+.cs_desc {
+    position:absolute;
+    left:70px;
+}
+.cs_right{
+    width:10px;
+    height:40px;
+    position:absolute;
+    left:40px;
+    top:0px;
+    cursor:pointer;
+    border:1px solid #000;
+    font-size:12px;
+}
+
+.cs_right i
+{
+    margin-top:12px;
+}
+.cs_wrapper ul {
+  position:absolute;
+  left:202px;
+  top:0px;
+  /*width:900px;*/
+  list-style:none;
+  padding:0px;
+  height:40px;
+  margin-top:0px;
+  z-index:2000;
+  padding-left:50px;
+}
+.cs_wrapper ul li {
+    float:left;
+}
+
+.cs_wrapper ul li a{
+  text-decoration:none;
+  cursor:pointer;
+  display:block;
+  float:left;
+  margin:0px;
+  text-indent:0px;
+  padding:0px 0px 0px 0px;
+  line-height:40px;
+  color:white;
+  background-color:#525252;
+  border:1px solid #525252;
+  border-left:none;
+  text-transform:uppercase;
+  width:40px;
+  text-align:center;
+}
+.cs_wrapper ul li a.hover{
+  background:#333;
+  color:#fff;
+  -moz-box-shadow:0px 0px 3px #000 inset;
+  -webkit-box-shadow:0px 0px 3px #000 inset;
+  box-shadow:0px 0px 3px #000 inset;
+}
+.cs_wrapper ul li a.cs_choice_ba, .cs_itemMain_ba, .cs_right_ba
+{
+    background-color:rgba(0, 75, 135, 1);
+    border:1px solid rgba(0, 75, 135, 1);
+    color:white;
+}
+
+.cs_wrapper ul li a.cs_choice_or, .cs_itemMain_or, .cs_right_or {
+    background-color: rgba(100, 167, 11, 1);
+    border: 1px solid rgba(100, 167, 11, 1);
+    color: white;
+}
+
+.cs_wrapper ul li a.cs_choice_os, .cs_itemMain_os, .cs_right_os {
+    background-color: rgba(0, 119, 139, 1);
+    border: 1px solid rgba(0, 119, 139, 1);
+    color: white;
+}
+
+.cs_wrapper ul li a.cs_choice_sg, .cs_itemMain_sg, .cs_right_sg {
+    background-color: rgba(119, 197, 213, 1);
+    border: 1px solid rgba(119, 197, 213, 1);
+    color: white;
+}
+
+.cs_wrapper ul li a.cs_choice_mi, .cs_itemMain_mi, .cs_right_mi {
+    background-color: rgba(51, 63, 72, 1);
+    border: 1px solid rgba(51, 63, 72, 1);
+    color: white;
+}
+
+.cs_wrapper ul li a.cs_choice_ov, .cs_itemMain_ov, .cs_right_ov {
+    background-color: rgba(229, 114, 0, 1);
+    border: 1px solid rgba(229, 114, 0, 1);
+    color: white;
+}
+
+.cs_wrapper ul li a.cs_choice_mu, .cs_itemMain_mu, .cs_right_mu {
+    background-color: rgba(243, 208, 62, 1);
+    border: 1px solid rgba(243, 208, 62, 1);
+    color: rgba(7, 6, 2, 1);
+}
+
+.cs_wrapper ul li a.cs_choice_ao, .cs_itemMain_ao, .cs_right_ao {
+    background-color: rgba(196, 191, 182, 1);
+    border: 1px solid rgba(196, 191, 182, 1);
+    color: rgba(7, 6, 2, 1);
+}
+
+.cs_wrapper ul li a.cs_choice_selected
+{
+    display:none;
+}
+
+.cs_wrapper .cs_menuWrapper {
+    height:40px;
+}
+
