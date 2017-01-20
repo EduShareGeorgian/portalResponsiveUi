@@ -237,7 +237,7 @@ function getMessages() {
 	                    if (!dismissable || importance === "critical") {
 	                        $(messageBannerClose).attr("title", "This message cannot be dismissed.");
 	                    } else {
-	                        $(messageBannerClose).attr("title", "Dismiss this message on this computer.");
+	                        $(messageBannerClose).attr("title", "Dismiss message on this computer.");
 	                    }
 	                    var closeImage = document.createElement("i");
 	                    $(closeImage).addClass("ms-Icon");
