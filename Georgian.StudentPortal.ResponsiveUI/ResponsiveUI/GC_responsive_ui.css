@@ -1246,6 +1246,7 @@ a.officeBrowserFeedbackOverallAnchor:hover {
 #officeBrowserFeedbackOverallBadStuffImage {
     font-size: 30px !important;
     padding-top: 12px !important;
+    padding-right: 16px !important;
 }
 
 #officeBrowserFeedbackMobileMainContentHolder textarea {
