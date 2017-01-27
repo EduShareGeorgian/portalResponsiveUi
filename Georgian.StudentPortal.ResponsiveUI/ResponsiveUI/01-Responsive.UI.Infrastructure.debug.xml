@@ -25,9 +25,6 @@
         <pnp:File Src="bundle.min.css" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
         <pnp:File Src="bundle.min.js" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
         
-        <pnp:File Src="Content\fabric.min.css" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
-        <pnp:File Src="Content\fabric.components.min.css" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
-        <pnp:File Src="Scripts\jquery.fabric.min.js" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
         <pnp:File Src="Scripts\jquery-2.2.3.min.js" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
         <pnp:File Src="Scripts\angular.js" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
         
