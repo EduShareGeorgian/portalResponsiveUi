@@ -2256,3 +2256,8 @@ div.QuickLinks .WebPartHeading {
     background-color: inherit;
     }
 }
+
+/* Promoted links tile text cutoff fix */
+.ms-tileview-tile-titleTextSmallCollapsed, .ms-tileview-tile-titleTextMediumCollapsed{
+ max-height: none !important;   
+}

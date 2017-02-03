@@ -98,14 +98,6 @@
     <Content Include="campusSelection.css" />
     <Content Include="campusSelection.js" />
     <Content Include="checkeditmode.js" />
-    <Content Include="Content\fabric.components.css" />
-    <Content Include="Content\fabric.components.min.css" />
-    <Content Include="Content\fabric.components.rtl.css" />
-    <Content Include="Content\fabric.components.rtl.min.css" />
-    <Content Include="Content\fabric.css" />
-    <Content Include="Content\fabric.min.css" />
-    <Content Include="Content\fabric.rtl.css" />
-    <Content Include="Content\fabric.rtl.min.css" />
     <Content Include="delayLoadImages.js" />
     <Content Include="EmergencyBroadcast.js" />
     <Content Include="Fonts\georgian.svg" />
@@ -270,7 +262,9 @@
     <Content Include="Content\sass\Fabric.Animations.Output.scss" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="packages.config" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Scripts\jquery-2.2.3.min.map" />
