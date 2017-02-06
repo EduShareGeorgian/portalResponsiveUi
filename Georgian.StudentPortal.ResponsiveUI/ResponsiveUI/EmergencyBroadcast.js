@@ -155,7 +155,7 @@ function getMessages() {
 	    $http({
 	            method: 'GET',
 	            url: /*_spPageContextInfo.webAbsoluteUrl +*/
-	                "/sites/dev/_api/web/lists/getByTitle('ImportantAnnouncements')/items?$select=Id,Title,Body,Expires,Dismiss,Importance,Status&$filter=Expires ge'" +
+	                "/_api/web/lists/getByTitle('ImportantAnnouncements')/items?$select=Id,Title,Body,Expires,Dismiss,Importance,Status&$filter=Expires ge'" +
 	                new Date().toISOString() +
 	                "'",
 	            headers: { "Accept": "application/json;odata=verbose" }
