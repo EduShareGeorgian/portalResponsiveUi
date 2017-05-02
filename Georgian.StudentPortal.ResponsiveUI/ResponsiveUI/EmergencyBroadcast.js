@@ -104,12 +104,17 @@ function decodeEntities(encodedString) {
 }
 
 function getText(htmlString) {
-    return htmlString;
     try {
+        var parser = new DOMParser();
+        var xmlDoc = parser.parseFromString(htmlString, "text/html");
+        var elems = xmlDoc.getElementsByClassName("WordSection1");
+        if (elems.length > 0)
+        {
+            return elems[0].outerHTML;
+        }
         return $(htmlString).text();
     } catch (e) {
-    return htmlString;
-        
+        return htmlString;
     }
 }
 
