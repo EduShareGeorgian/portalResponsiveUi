@@ -1,0 +1,157 @@
+﻿@charset "UTF-8";
+
+@font-face {
+  font-family: "georgian";
+  src:url("../fonts/georgian.eot");
+  src:url("../fonts/georgian.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/georgian.woff") format("woff"),
+    url("../fonts/georgian.ttf") format("truetype"),
+    url("../fonts/georgian.svg#georgian") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "georgian" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="georgian-"]:before,
+[class*=" georgian-"]:before {
+  font-family: "georgian" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.georgian-os-oldwindows:before {
+  content: "\62";
+}
+.georgian-os-apple:before {
+  content: "\63";
+}
+.georgian-social-facebook-alt:before {
+  content: "\64";
+}
+.georgian-places:before {
+  content: "\65";
+}
+.georgian-social-linkedin-alt:before {
+  content: "\66";
+}
+.georgian-social-facebook:before {
+  content: "\67";
+}
+.georgian-social-linkedin:before {
+  content: "\68";
+}
+.georgian-rss:before {
+  content: "\72";
+}
+.georgian-skype:before {
+  content: "\6a";
+}
+.georgian-sharethis:before {
+  content: "\6b";
+}
+.georgian-social-twitter-alt:before {
+  content: "\6c";
+}
+.georgian-social-youtube:before {
+  content: "\79";
+}
+.georgian-social-youtube-alt:before {
+  content: "\6e";
+}
+.georgian-os-windows:before {
+  content: "\77";
+}
+.georgian-social-vimeo:before {
+  content: "\76";
+}
+.georgian-social-snapchat:before {
+  content: "\71";
+}
+.georgian-social-pinterest:before {
+  content: "\70";
+}
+.georgian-social-reddit:before {
+  content: "\73";
+}
+.georgian-social-skillshare:before {
+  content: "\75";
+}
+.georgian-os-android:before {
+  content: "\61";
+}
+.georgian-portal-a-z:before {
+  content: "\69";
+}
+.georgian-portal-tutor:before {
+  content: "\6d";
+}
+.georgian-wheelchair:before {
+  content: "\6f";
+}
+.georgian-campus-icon:before {
+  content: "\74";
+}
+.georgian-contact-icon:before {
+  content: "\78";
+}
+.georgian-email-icon:before {
+  content: "\7a";
+}
+.georgian-event-icon:before {
+  content: "\41";
+}
+.georgian-favourite-icon:before {
+  content: "\43";
+}
+.georgian-link-icon:before {
+  content: "\44";
+}
+.georgian-notification-icon:before {
+  content: "\45";
+}
+.georgian-phone-icon:before {
+  content: "\46";
+}
+.georgian-restaurant-icon:before {
+  content: "\47";
+}
+.georgian-search-icon:before {
+  content: "\48";
+}
+.georgian-portal-campus:before {
+  content: "\49";
+}
+.georgian-portal-timetable:before {
+  content: "\42";
+}
+.georgian-portal-library:before {
+  content: "\4a";
+}
+.georgian-portal-academic:before {
+  content: "\4b";
+}
+.georgian-portal-forms:before {
+  content: "\4c";
+}
+.georgian-portal-bus:before {
+  content: "\4d";
+}

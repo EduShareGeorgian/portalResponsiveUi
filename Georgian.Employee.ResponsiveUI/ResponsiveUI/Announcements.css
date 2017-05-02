@@ -1,0 +1,183 @@
+    div.NewsFeedAnnouncements {
+        font-size: 1em;
+    }
+    div.NewsFeedAnnouncements .ms-webpart-chrome-title {
+        vertical-align: middle;
+        padding-left: 60px !important;
+        padding-top: 0 !important;
+        padding-right: 0 !important;
+        padding-bottom: 0 !important;
+        background-color: white;
+        background-repeat: no-repeat;
+        background-position: 16px;
+        background-size: 30px;
+        background-image: url("/sites/student/PublishingImages/announcements.svg");
+        font-size: 1.05em !important;
+        color: #262626;
+        border-bottom: 1px solid #eaeaea;
+        margin-bottom: 0;
+    }
+    div.NewsFeedAnnouncements a.ms-microfeed-feedTitleLabel:link, div.NewsFeedAnnouncements a.ms-microfeed-feedTitleLabel:visited, div.NewsFeedAnnouncements a.ms-microfeed-feedTitleLabel:hover, div.NewsFeedAnnouncements a.ms-microfeed-feedTitleLabel:active {
+        pointer-events: none;
+        cursor: default;
+        color: #262626;
+    }
+    div.NewsFeedAnnouncements .ms-microfeed-rootBody {
+        margin-left: 0;
+        width: 90%;
+    }
+    div.NewsFeedAnnouncements .ms-microfeed-emptyThreadDiv,
+    div.NewsFeedAnnouncements .ms-microfeed-userThumbnailArea,
+    div.NewsFeedAnnouncements .ms-microfeed-text .ms-microfeed-userName,
+    div.NewsFeedAnnouncements #ms-addImageButton,
+    div.NewsFeedAnnouncements .ms-microfeed-siteFeedTitleArea,
+    div.NewsFeedAnnouncements .ms-microfeed-messageFooter .ms-microfeed-footerButton,
+    div.NewsFeedAnnouncements .ms-microfeed-messageFooter .ms-microfeed-mysitemenu-control,
+    div.NewsFeedAnnouncements .ms-microfeed-rightAlignedDiv {
+        display: none;
+    }
+    div.NewsFeedAnnouncements .ms-microfeed-text {
+        width: 100%;
+    }
+    div.NewsFeedAnnouncements .ms-microfeed-rootText {
+        min-width: 0;
+        max-width: 80%;
+    }
+    div.NewsFeedAnnouncements div.ms-WPBody {
+        /*width: 0;*/
+
+    }
+    div.NewsFeedAnnouncements div.ms-microfeed-fullMicrofeedDiv {
+        /*width: 0;*/
+        min-width: inherit;
+    }
+    div.NewsFeedAnnouncements .ms-microfeed-postButtonSpan {
+        position: static;
+        padding-top: 16px;
+    }
+    div.NewsFeedAnnouncements .ms-microfeed-postBody {
+        font-size: 1em;
+    }
+    div.NewsFeedAnnouncements .ms-microfeed-rootDiv {
+        border-top: 1px solid #eaeaea;
+    }
+    div.NewsFeedAnnouncements #ms-feedthreadsdiv:first-child .ms-microfeed-thread {
+        border-top: none;
+    }
+    div.NewsFeedAnnouncements .ms-microfeed-thread {
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 16px;
+        margin-bottom: 0;
+    }
+    div.NewsFeedAnnouncements .ms-microfeed-threadsDiv {
+        width: 100%;
+    }
+    div.NewsFeedAnnouncements .ms-microfeed-seeMoreThreadsDivContainer {
+        left: auto;
+        padding-left: 16px;
+        padding-right: 16px;
+        width: 100%;
+    }
+    div.NewsFeedAnnouncements .ms-microfeed-siteFeedMicroBlogPart {
+        padding-left: 16px;
+        padding-top: 16px;
+        padding-right: 16px;
+    }
+    div.NewsFeedAnnouncements .ms-microfeed-rightAlignedDiv {
+        padding: 16px;
+    }
+    div.NewsFeedAnnouncements .ms-microfeed-seeMoreThreadsDiv {
+        left: auto;
+        padding-top: 16px;
+        border-top: 1px solid #eaeaea;
+        width: 100%;
+    }
+    div.NewsFeedAnnouncements #ms-MoreThreadsButtonLabel {
+        text-transform: none;
+        font-size: 1em;
+        padding: 0;
+        text-align: left;
+        color: #0078d7;
+    }
+    div.NewsFeedAnnouncements .ms-microfeed-microblogpart {
+        max-width: 385px;
+        min-width: 320px;
+    }
+
+
+
+    div.NewsFeedAnnouncements>div.ms-Grid-row {
+        padding-left: 8px;
+        padding-right: 8px;
+
+    }
+    div.NewsFeedAnnouncements .ms-webpart-chrome-title h2 {
+        /*line-height: 55px;*/
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    
+        font-size: 1.5em;
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    div.NewsFeedAnnouncements div.topBorder {
+        border-left: 1px solid #eaeaea;
+        border-top: 1px solid #eaeaea;
+        border-right: 1px solid #eaeaea;
+        height: 1px;
+    }
+    div.NewsFeedAnnouncements .microfeed-text {
+        font-size: 1em;
+        width: 100%;
+        overflow: hidden;
+        padding-top: 16px;
+
+    }
+    div.NewsFeedAnnouncements .microfeed-attachmentImage {
+        width: 100%;
+    }
+    div.NewsFeedAnnouncements .microfeed-postedTime {
+        font-size: .9em;
+        color: #777777;
+        padding-top: 8px;
+        padding-bottom: 16px;
+    }
+    div.NewsFeedAnnouncements>div.ms-Grid>div.ms-Grid-row {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    div.NewsFeedAnnouncements>div.ms-Grid {
+        border-left: 1px solid #eaeaea;
+        border-right: 1px solid #eaeaea;
+        margin-bottom: 20px;
+    }
+    div.NewsFeedAnnouncements .WebPartHeading {
+        border: 1px solid #eaeaea;
+        background-image: url("/sites/student/PublishingImages/announcements.svg");
+        vertical-align: middle;
+        padding-left: 60px !important;
+        padding-top: 0 !important;
+        padding-right: 0 !important;
+        padding-bottom: 0 !important;
+        background-color: white;
+        background-repeat: no-repeat;
+        background-position: 16px 16px;
+        background-size: 30px;
+        height: 60px;
+    }
+    div.NewsFeedAnnouncements .WebPartHeading h2 {
+        font-family: "Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+        font-size: 1.5em;
+        font-weight: 300;
+        color: #262626;
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-top: 16px;
+    }
