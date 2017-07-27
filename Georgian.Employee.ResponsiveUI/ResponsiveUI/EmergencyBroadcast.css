@@ -107,13 +107,10 @@ div[ng-app="EmergencyBroadcast"]{
 }
 }
 
-/*.ms-MessageBanner-content {
-    width: auto;
-    float:left; 
-    white-space: nowrap;
-    font-size: 14px;
-    text-overflow: ellipsis;
+.ms-MessageBanner-content {
+    position:relative;
 }
+/*
 .buttonContainer {
     overflow: hidden;
 }*/

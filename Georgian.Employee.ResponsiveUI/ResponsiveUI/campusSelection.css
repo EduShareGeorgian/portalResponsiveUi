@@ -47,6 +47,7 @@
 .cs_right i
 {
     margin-top:12px;
+    margin-left:-5px;
 }
 .cs_wrapper ul {
   position:absolute;
