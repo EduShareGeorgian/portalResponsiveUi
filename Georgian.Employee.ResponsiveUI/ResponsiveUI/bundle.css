@@ -1821,12 +1821,12 @@ a.officeBrowserFeedbackOverallAnchor:hover {
     box-sizing: initial;
 }
 
-.ms-core-listMenu-horizontalBox .ms-core-listMenu-root > li.selected {
+.ms-core-listMenu-horizontalBox .ms-core-listMenu-root > li.selected > a.menu-item {
     border-bottom: 3px solid #e57200;
     box-sizing:initial;
 }
 
-.ms-core-listMenu-horizontalBox .ms-core-listMenu-root > li:hover{
+.ms-core-listMenu-horizontalBox .ms-core-listMenu-root > li > a.menu-item:hover{
     border-bottom: 3px solid #e57200;
 }
 
@@ -1838,6 +1838,15 @@ a.officeBrowserFeedbackOverallAnchor:hover {
 
 .ms-core-listMenu-horizontalBox .ms-core-listMenu-root > li > ul {
     width:220px !important;
+}
+
+.ms-core-listMenu-horizontalBox .ms-core-listMenu-root > li > ul > li.selected > a.menu-item {
+    border-bottom: 3px solid #e57200;
+    box-sizing:initial;
+}
+
+.ms-core-listMenu-horizontalBox .ms-core-listMenu-root > li > ul > li > a.menu-item:hover{
+    border-bottom: 3px solid #e57200;
 }
 
 /* Current Navigation */

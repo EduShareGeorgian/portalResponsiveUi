@@ -286,3 +286,5 @@ Georgian.StudentPortal.ResponsiveUI/ResponsiveUI/Scripts/angular*
 
 #jquery
 Georgian.StudentPortal.ResponsiveUI/ResponsiveUI/Scripts/jquery*
+/Georgian.Employee.ResponsiveUI/ResponsiveUI/bundle.min.css
+/Georgian.Employee.ResponsiveUI/ResponsiveUI/bundle.min.js
