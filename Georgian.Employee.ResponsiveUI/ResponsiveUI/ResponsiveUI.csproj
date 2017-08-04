@@ -95,41 +95,41 @@
     <Content Include="bundle.min.js">
       <DependentUpon>bundle.js</DependentUpon>
     </Content>
-    <Content Include="campusSelection.css" />
-    <Content Include="campusSelection.js" />
-    <Content Include="checkeditmode.js" />
-    <Content Include="delayLoadImages.js" />
-    <Content Include="EmergencyBroadcast.js" />
+    <Content Include="CampusSelection\campusSelection.js" />
+    <Content Include="javascript\checkeditmode.js" />
+    <Content Include="CampusSelection\campusSelection.css" />
+    <Content Include="javascript\delayLoadImages.js" />
+    <Content Include="EmergencyBroadcast\EmergencyBroadcast.js" />
     <Content Include="Fonts\georgian.svg" />
     <Content Include="Fonts\OpenSansBold.svg" />
     <Content Include="Fonts\OpenSansExtraBold.svg" />
     <Content Include="Fonts\OpenSansRegular.svg" />
-    <Content Include="GC-Responsive-UI.js" />
-    <Content Include="GC_responsive_ui.css" />
-    <Content Include="georgianicon.css" />
+    <Content Include="GcResponsive\GC-Responsive-UI.js" />
+    <Content Include="GcResponsive\GC_responsive_ui.css" />
+    <Content Include="css\georgianicon.css" />
     <Content Include="redirecthomepage.js" />
     <Content Include="Scripts\Announcements.js" />
     <Content Include="Scripts\linkify-jquery.min.js" />
     <Content Include="Scripts\linkify-string.min.js" />
     <Content Include="Scripts\linkify.min.js" />
-    <Content Include="EmergencyBroadcast.css" />
-    <Content Include="summarylinks.css" />
-    <Content Include="summarylinks.js" />
-    <Content Include="georgianuserprofileproperties.js" />
+    <Content Include="EmergencyBroadcast\EmergencyBroadcast.css" />
+    <Content Include="SummaryLinks\summarylinks.css" />
+    <Content Include="SummaryLinks\summarylinks.js" />
+    <Content Include="javascript\georgianuserprofileproperties.js" />
     <None Include="bundleconfig.json" />
     <Content Include="Fonts\georgian.eot" />
     <Content Include="Fonts\georgian.ttf" />
     <Content Include="Fonts\georgian.woff" />
-    <Content Include="georgianfeedback.js" />
-    <Content Include="georgian_sharepoint_chrome.js" />
-    <Content Include="hide_app_part.js" />
+    <Content Include="javascript\georgianfeedback.js" />
+    <Content Include="javascript\georgian_sharepoint_chrome.js" />
+    <Content Include="javascript\hide_app_part.js" />
     <Content Include="redirect.js" />
-    <Content Include="resize_app_part.js" />
+    <Content Include="javascript\resize_app_part.js" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Disable-SPResponsiveUI.ps1" />
     <Content Include="Enable-SPResponsiveUI.ps1" />
-    <Content Include="georgianbrand2016.css" />
+    <Content Include="css\georgianbrand2016.css" />
     <Content Include="README.MD" />
   </ItemGroup>
   <ItemGroup>
