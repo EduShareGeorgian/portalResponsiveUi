@@ -160,8 +160,9 @@ function getMessages() {
 	                "'",
 	            headers: { "Accept": "application/json;odata=verbose" }
 	        })
-	        .success(function(data, status, headers, config) {
-	            var dataToDisplay = [];
+	        .then(function(response,data, status, headers, config) {
+                data = response.data;
+                var dataToDisplay = [];
 	            var cookieName;
 	            var cookieExists;
 
@@ -274,8 +275,8 @@ function getMessages() {
 	                    $("div.span10").append(messageBanner);
 	                });
 	            $scope.messages = dataToDisplay;			
-	        })
-	        .error(function(data, status, headers, config) {
+	        },
+	        function(error,data, status, headers, config) {
 	            console.log("ajax call error");
 	        });
 

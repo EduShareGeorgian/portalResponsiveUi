@@ -141,12 +141,16 @@ PnPResponsiveApp.init = function () {
       // embedding and loading of all necessary CSS files and JS libraries
       var currentScriptUrl = $('#PnPResponsiveUI').attr('src');
       if (currentScriptUrl != undefined) {
+          
         var currentScriptBaseUrl = currentScriptUrl.substring(0, currentScriptUrl.lastIndexOf("/") + 1);
 
         addViewport();
 
-        loadScript(currentScriptBaseUrl + 'angular.js', null);
-        //  loadScript(currentScriptBaseUrl + 'checkeditmode.js', null);
+        //loadScript(currentScriptBaseUrl + 'angular.js', null);
+        var angularScriptUrl = "https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.js";
+        loadScript(angularScriptUrl, null);
+
+          //  loadScript(currentScriptBaseUrl + 'checkeditmode.js', null);
       }
 
       PnPResponsiveApp.setUpToggling();
