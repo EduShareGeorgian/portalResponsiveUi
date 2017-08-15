@@ -1,3 +1,5 @@
+//change the old angular to this cdn
+var angularScriptUrl = "https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.js";
 /* PnP SharePoint - Responsiveness */
 
 var PnPResponsiveApp = PnPResponsiveApp || {};
@@ -147,8 +149,9 @@ PnPResponsiveApp.init = function () {
         addViewport();
 
         //loadScript(currentScriptBaseUrl + 'angular.js', null);
-        var angularScriptUrl = "https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.js";
-        loadScript(angularScriptUrl, null);
+        
+        //*comment this so we can check if loading angular only once.
+        //loadScript(angularScriptUrl, null);
 
           //  loadScript(currentScriptBaseUrl + 'checkeditmode.js', null);
       }
@@ -209,7 +212,7 @@ function addViewport() {
 
 
 // embedding of jQuery, and initialization of responsiveness when ready
-loadScript("//code.jquery.com/jquery-1.12.0.min.js", function () {
+loadScript(angularScriptUrl, function () {
   PnPResponsiveApp.init();
 });
 

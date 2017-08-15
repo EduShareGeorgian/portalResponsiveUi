@@ -21,8 +21,8 @@
         <pnp:File Src="javascript\georgianuserprofileproperties.js" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
         <pnp:File Src="CampusSelection\campusSelection.css" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
         <pnp:File Src="CampusSelection\campusSelection.js" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
-        <pnp:File Src="bundle.min.css" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
-        <pnp:File Src="bundle.min.js" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />                       
+        <!--<pnp:File Src="bundle.min.css" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
+        <pnp:File Src="bundle.min.js" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />-->                       
         <pnp:File Src="fonts\georgian.eot" Folder="Style Library/SP.Responsive.UI/fonts" Overwrite="true" />
         <pnp:File Src="fonts\georgian.svg" Folder="Style Library/SP.Responsive.UI/fonts" Overwrite="true" />
         <pnp:File Src="fonts\georgian.ttf" Folder="Style Library/SP.Responsive.UI/fonts" Overwrite="true" />

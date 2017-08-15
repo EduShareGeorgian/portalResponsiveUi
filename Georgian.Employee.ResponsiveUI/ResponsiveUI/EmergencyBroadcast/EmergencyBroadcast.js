@@ -26,16 +26,19 @@ function emergencyBroadCast() {
 
 	        if ($("#" + mesageBaseName).length == 0) {
 
-	            $("#s4-bodyContainer #s4-titlerow").after(htmlCode);
+                $("#s4-bodyContainer #s4-titlerow").after(htmlCode);
+                
 	        }
 
 	        $("#" + mesageBaseName).hide();
 	        getMessages();
-
+            
 	    });
 	}
 	else {
-		window.setTimeout(emergencyBroadCast, 50);
+        
+        window.setTimeout(emergencyBroadCast, 50);
+
 	};
 }
 
@@ -151,7 +154,7 @@ function getMessages() {
 	    angular.bootstrap(document, ["georgianCollegeMessages"]);
 	});
 
-	angular.module("georgianCollegeMessages", []).controller("spBroadcastController", function ($scope, $http) {
+    angular.module("georgianCollegeMessages", []).controller("spBroadcastController", ['$scope','$http', function ($scope, $http) {
 	    $http({
 	            method: 'GET',
 	            url: /*_spPageContextInfo.webAbsoluteUrl +*/
@@ -165,7 +168,7 @@ function getMessages() {
                 var dataToDisplay = [];
 	            var cookieName;
 	            var cookieExists;
-
+                
 	            angular.forEach(data.d.results, function (result, key) {
 	                if (result.Dismiss) {
 	                    cookieName = cookieBaseName + result.Id;
@@ -277,7 +280,8 @@ function getMessages() {
 	            $scope.messages = dataToDisplay;			
 	        },
 	        function(error,data, status, headers, config) {
-	            console.log("ajax call error");
+                console.log("ajax call error");
+                
 	        });
 
 	    //$scope.dismissMessage = function (messageId) {	     
@@ -286,7 +290,7 @@ function getMessages() {
 	    //    removeRow(cookieName);
 	    //    checkTableRows();	       
 	    //} 
-	});
+	}]);
 
 }
 

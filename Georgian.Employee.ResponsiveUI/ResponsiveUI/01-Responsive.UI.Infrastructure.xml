@@ -4,15 +4,28 @@
   <pnp:Templates ID="CONTAINER-PNP-RESPONSIVE-UI-INFRASTRUCTURE">
     <pnp:ProvisioningTemplate ID="PNP-RESPONSIVE-UI-INFRASTRUCTURE" Version="1">
       <pnp:Files>       
-        <pnp:File Src="resize_app_part.js" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
-        <pnp:File Src="georgian_sharepoint_chrome.js" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
+        <!--<pnp:File Src="javascript\resize_app_part.js" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
+        <pnp:File Src="javascript\georgian_sharepoint_chrome.js" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />-->
         <pnp:File Src="bundle.min.css" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
         <pnp:File Src="bundle.min.js" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
+        <!--
         <pnp:File Src="Scripts\jquery-2.2.3.min.js" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
+        -->
         <pnp:File Src="fonts\georgian.eot" Folder="Style Library/SP.Responsive.UI/fonts" Overwrite="true" />
         <pnp:File Src="fonts\georgian.svg" Folder="Style Library/SP.Responsive.UI/fonts" Overwrite="true" />
         <pnp:File Src="fonts\georgian.ttf" Folder="Style Library/SP.Responsive.UI/fonts" Overwrite="true" />
         <pnp:File Src="fonts\georgian.woff" Folder="Style Library/SP.Responsive.UI/fonts" Overwrite="true" />
+        <!--<pnp:File Src="EmergencyBroadcast\EmergencyBroadcast.js" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
+        <pnp:File Src="EmergencyBroadcast\EmergencyBroadcast.css" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />-->
+        <pnp:File Src="javascript\GC_Branding_Prod.js" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
+
+
+
+
+        
+        
+        
+        
       </pnp:Files>
     </pnp:ProvisioningTemplate>
   </pnp:Templates>
