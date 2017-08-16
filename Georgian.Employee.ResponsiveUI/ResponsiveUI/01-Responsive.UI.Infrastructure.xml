@@ -3,7 +3,8 @@
   <pnp:Preferences Generator="OfficeDevPnP.Core, Version=2.1.1602.1, Culture=neutral, PublicKeyToken=3751622786b357c2" />
   <pnp:Templates ID="CONTAINER-PNP-RESPONSIVE-UI-INFRASTRUCTURE">
     <pnp:ProvisioningTemplate ID="PNP-RESPONSIVE-UI-INFRASTRUCTURE" Version="1">
-      <pnp:Files>       
+      <pnp:Files>
+        <pnp:File Src="javascript\GC_Branding_Prod.js" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
         <!--<pnp:File Src="javascript\resize_app_part.js" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
         <pnp:File Src="javascript\georgian_sharepoint_chrome.js" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />-->
         <pnp:File Src="bundle.min.css" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
@@ -17,7 +18,7 @@
         <pnp:File Src="fonts\georgian.woff" Folder="Style Library/SP.Responsive.UI/fonts" Overwrite="true" />
         <!--<pnp:File Src="EmergencyBroadcast\EmergencyBroadcast.js" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
         <pnp:File Src="EmergencyBroadcast\EmergencyBroadcast.css" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />-->
-        <pnp:File Src="javascript\GC_Branding_Prod.js" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
+        
 
 
 

@@ -108,6 +108,7 @@
     <Content Include="GcResponsive\GC_responsive_ui.css" />
     <Content Include="css\georgianicon.css" />
     <Content Include="javascript\GC_Branding.js" />
+    <Content Include="javascript\GC_Branding_Prod.js" />
     <Content Include="redirecthomepage.js" />
     <Content Include="Scripts\Announcements.js" />
     <Content Include="Scripts\linkify-jquery.min.js" />
