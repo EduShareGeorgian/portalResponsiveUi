@@ -27,7 +27,7 @@
         <pnp:File Src="fonts\georgian.svg" Folder="Style Library/SP.Responsive.UI/fonts" Overwrite="true" />
         <pnp:File Src="fonts\georgian.ttf" Folder="Style Library/SP.Responsive.UI/fonts" Overwrite="true" />
         <pnp:File Src="fonts\georgian.woff" Folder="Style Library/SP.Responsive.UI/fonts" Overwrite="true" />
-        <pnp:File Src="javascript\GC_Branding.js" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
+        <pnp:File Src="javascript\GC_Branding_Debug.js" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
       </pnp:Files>
     </pnp:ProvisioningTemplate>
   </pnp:Templates>

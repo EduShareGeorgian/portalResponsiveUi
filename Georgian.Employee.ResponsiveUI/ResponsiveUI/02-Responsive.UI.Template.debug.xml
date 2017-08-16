@@ -8,7 +8,7 @@
     <pnp:ProvisioningTemplate ID="PNP-RESPONSIVE-UI-OVERRIDES" Version="1">
       <pnp:CustomActions>
         <pnp:SiteCustomActions>
-          <pnp:CustomAction Name="PnPResponsiveUI" Location="ScriptLink" Sequence="0" Rights="" ScriptSrc="{parameter:InfrastructureSiteUrl}/Style%20Library/SP.Responsive.UI/GC_Branding.js" >
+          <pnp:CustomAction Name="PnPResponsiveUI" Location="ScriptLink" Sequence="0" Rights="" ScriptSrc="{parameter:InfrastructureSiteUrl}/Style%20Library/SP.Responsive.UI/GC_Branding_Debug.js" >
             <pnp:CommandUIExtension />
           </pnp:CustomAction>
         </pnp:SiteCustomActions>
