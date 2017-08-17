@@ -8,14 +8,9 @@
       "javascript\\checkeditmode.js",
       "javascript\\georgianuserprofileproperties.js",
       "EmergencyBroadcast\\EmergencyBroadcast.js",
-      "SummaryLinks\\summarylinks.js",
-      "javascript\\georgian_sharepoint_chrome.js",
-      "javascript\\resize_app_part.js",
+      "SummaryLinks\\summarylinks.js",      
       "javascript\\hide_app_part.js",
       "CampusSelection\\campusSelection.js"
-
-
-
     ]
   },
   {
@@ -26,7 +21,9 @@
       "css\\georgianicon.css",
       "css\\georgianbrand2016.css",
       "EmergencyBroadcast\\EmergencyBroadcast.css",
-      "CampusSelection\\campusSelection.css"
+      "CampusSelection\\campusSelection.css",
+      "Content\\fabric.components.min.css",
+      "Content\\fabric.min.css"
     ]
   }
 ]

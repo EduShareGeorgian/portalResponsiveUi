@@ -28,6 +28,9 @@
         <pnp:File Src="fonts\georgian.ttf" Folder="Style Library/SP.Responsive.UI/fonts" Overwrite="true" />
         <pnp:File Src="fonts\georgian.woff" Folder="Style Library/SP.Responsive.UI/fonts" Overwrite="true" />
         <pnp:File Src="javascript\GC_Branding_Debug.js" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
+
+        <pnp:File Src="Content\fabric.components.min.css" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
+        <pnp:File Src="Content\fabric.min.css" Folder="Style Library/SP.Responsive.UI" Overwrite="true" />
       </pnp:Files>
     </pnp:ProvisioningTemplate>
   </pnp:Templates>
