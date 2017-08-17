@@ -279,13 +279,16 @@ Georgian.StudentPortal.ResponsiveUI/ResponsiveUI/bundle.min.*
 
 #responsive files
 Georgian.StudentPortal.ResponsiveUI/ResponsiveUI/Content/sass/
+Georgian.Employee.ResponsiveUI/ResponsiveUI/Content/sass/
 Georgian.StudentPortal.ResponsiveUI/ResponsiveUI/Content/fabric*
+Georgian.Employee.ResponsiveUI/ResponsiveUI/Content/fabric*
 
 #angular files
 Georgian.StudentPortal.ResponsiveUI/ResponsiveUI/Scripts/angular*
 
 #jquery
 Georgian.StudentPortal.ResponsiveUI/ResponsiveUI/Scripts/jquery*
+Georgian.Employee.ResponsiveUI/ResponsiveUI/Scripts/jquery*
 /Georgian.Employee.ResponsiveUI/ResponsiveUI/bundle.min.css
 /Georgian.Employee.ResponsiveUI/ResponsiveUI/bundle.min.js
 /Georgian.Employee.ResponsiveUI/ResponsiveUI/bundle.css

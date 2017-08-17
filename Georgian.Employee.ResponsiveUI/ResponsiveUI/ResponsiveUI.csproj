@@ -96,6 +96,14 @@
       <DependentUpon>bundle.js</DependentUpon>
     </Content>
     <Content Include="CampusSelection\campusSelection.js" />
+    <Content Include="Content\fabric.components.css" />
+    <Content Include="Content\fabric.components.min.css" />
+    <Content Include="Content\fabric.components.rtl.css" />
+    <Content Include="Content\fabric.components.rtl.min.css" />
+    <Content Include="Content\fabric.css" />
+    <Content Include="Content\fabric.min.css" />
+    <Content Include="Content\fabric.rtl.css" />
+    <Content Include="Content\fabric.rtl.min.css" />
     <Content Include="javascript\checkeditmode.js" />
     <Content Include="CampusSelection\campusSelection.css" />
     <Content Include="javascript\delayLoadImages.js" />
@@ -111,6 +119,8 @@
     <Content Include="javascript\GC_Branding_Prod.js" />
     <Content Include="redirecthomepage.js" />
     <Content Include="Scripts\Announcements.js" />
+    <Content Include="Scripts\jquery.fabric.js" />
+    <Content Include="Scripts\jquery.fabric.min.js" />
     <Content Include="Scripts\linkify-jquery.min.js" />
     <Content Include="Scripts\linkify-string.min.js" />
     <Content Include="Scripts\linkify.min.js" />
@@ -127,6 +137,39 @@
     <Content Include="javascript\hide_app_part.js" />
     <Content Include="redirect.js" />
     <Content Include="javascript\resize_app_part.js" />
+    <Content Include="Content\sass\_Office.Color.Variables.scss" />
+    <Content Include="Content\sass\_Fabric.ZIndex.Variables.scss" />
+    <Content Include="Content\sass\_Fabric.Utilities.scss" />
+    <Content Include="Content\sass\_Fabric.Typography.Variables.scss" />
+    <Content Include="Content\sass\_Fabric.Typography.scss" />
+    <Content Include="Content\sass\_Fabric.Typography.Language.Overrides.scss" />
+    <Content Include="Content\sass\_Fabric.Typography.Fonts.scss" />
+    <Content Include="Content\sass\_Fabric.Responsive.Variables.scss" />
+    <Content Include="Content\sass\_Fabric.Responsive.Utilities.Variables.scss" />
+    <Content Include="Content\sass\_Fabric.Mixins.scss" />
+    <Content Include="Content\sass\_Fabric.Mixins.RTL.scss" />
+    <Content Include="Content\sass\_Fabric.Icons.scss" />
+    <Content Include="Content\sass\_Fabric.Grid.scss" />
+    <Content Include="Content\sass\_Fabric.Common.scss" />
+    <Content Include="Content\sass\_Fabric.Color.Variables.scss" />
+    <Content Include="Content\sass\_Fabric.Color.Mixins.scss" />
+    <Content Include="Content\sass\_Fabric.Animations.scss" />
+    <Content Include="Content\sass\_Fabric.Animations.RTL.scss" />
+    <Content Include="Content\sass\Fabric.Utilities.Output.scss" />
+    <Content Include="Content\sass\Fabric.Typography.Output.scss" />
+    <Content Include="Content\sass\Fabric.Typography.Language.Overrides.Output.scss" />
+    <Content Include="Content\sass\Fabric.Typography.Fonts.Output.scss" />
+    <Content Include="Content\sass\Fabric.scss" />
+    <Content Include="Content\sass\Fabric.RTL.scss" />
+    <Content Include="Content\sass\Fabric.Responsive.Utilities.Output.scss" />
+    <Content Include="Content\sass\Fabric.Icons.RTL.Output.scss" />
+    <Content Include="Content\sass\Fabric.Icons.Output.scss" />
+    <Content Include="Content\sass\Fabric.Icons.Font.Output.scss" />
+    <Content Include="Content\sass\Fabric.Grid.Output.scss" />
+    <Content Include="Content\sass\Fabric.Components.scss" />
+    <Content Include="Content\sass\Fabric.Color.Mixins.Output.scss" />
+    <Content Include="Content\sass\Fabric.Animations.RTL.Output.scss" />
+    <Content Include="Content\sass\Fabric.Animations.Output.scss" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Disable-SPResponsiveUI.ps1" />
@@ -158,9 +201,7 @@
       <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Content\sass\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
