@@ -220,6 +220,12 @@ body {
 /* Smartphones */
 @media screen and (max-width: 480px) {
 
+    .ms-rtePosition-2, .ms-rtePosition-1 {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
     div#DeltaPlaceHolderSearchArea {
         display: none;
     }
