@@ -107,7 +107,8 @@
     <Content Include="GC-Responsive-UI.js" />
     <Content Include="GC_responsive_ui.css" />
     <Content Include="georgianicon.css" />
-    <Content Include="Masonry.css" />
+    <Content Include="PageLayouts\GC Portal Home.aspx" />
+    <Content Include="PageLayouts\GC Portal Home.html" />
     <Content Include="redirecthomepage.js" />
     <Content Include="Scripts\angular-mocks.js" />
     <Content Include="Scripts\angular.js" />
@@ -116,7 +117,6 @@
     <Content Include="Scripts\linkify-jquery.min.js" />
     <Content Include="Scripts\linkify-string.min.js" />
     <Content Include="Scripts\linkify.min.js" />
-    <Content Include="Scripts\masonry.js" />
     <Content Include="EmergencyBroadcast.css" />
     <Content Include="summarylinks.css" />
     <Content Include="summarylinks.js" />
