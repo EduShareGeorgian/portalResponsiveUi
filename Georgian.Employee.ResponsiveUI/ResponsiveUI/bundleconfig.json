@@ -7,8 +7,7 @@
       "javascript\\georgianfeedback.js",
       "javascript\\checkeditmode.js",
       "javascript\\georgianuserprofileproperties.js",
-      "EmergencyBroadcast\\EmergencyBroadcast.js",
-      "SummaryLinks\\summarylinks.js",      
+      "EmergencyBroadcast\\EmergencyBroadcast.js",         
       "javascript\\hide_app_part.js",
       "CampusSelection\\campusSelection.js"
     ]
@@ -21,9 +20,7 @@
       "css\\georgianicon.css",
       "css\\georgianbrand2016.css",
       "EmergencyBroadcast\\EmergencyBroadcast.css",
-      "CampusSelection\\campusSelection.css",
-      "Content\\fabric.components.min.css",
-      "Content\\fabric.min.css"
+      "CampusSelection\\campusSelection.css"
     ]
   }
 ]

@@ -24,6 +24,16 @@ body {
     display: none;
 }
 
+.ms-rtePosition-2, .ms-rtePosition-1 {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.ms-rtestate-field div{
+    padding:0px !important;
+}
+
 #s4-workspace, iframe {
     -webkit-overflow-scrolling: touch;
 }

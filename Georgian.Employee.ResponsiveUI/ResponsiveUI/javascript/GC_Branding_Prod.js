@@ -1,5 +1,8 @@
 ﻿if ((window.location.href.indexOf('/_layouts') < 0 || (window.location.href.indexOf('/_layouts') >= 0 && window.location.href.indexOf('start.aspx#') >= 0)) && window.location.href.indexOf('/_catalogs') < 0 && window.location.href.indexOf('admin=1') < 0 && window.location.href.indexOf('AllItems.aspx') < 0 && window.location.href.indexOf('AllPages.aspx') < 0) {
-    document.write('<link id="gc_responsive_ui_css" rel="stylesheet" href="../Style Library/SP.Responsive.UI/bundle.min.css" /> ')
+    var a = window.location.href.indexOf("sites");
+    var b = window.location.href.indexOf("/", a + 6);
+    var c = window.location.href.substring(0, b);
+    document.write('<link id="gc_responsive_ui_css" rel="stylesheet" href="' + c + '/Style Library/SP.Responsive.UI/bundle.min.css" /> ')
     var headID = document.getElementsByTagName('head')[0];
     var newScript0 = document.createElement('script');
     newScript0.type = 'text/javascript';
@@ -12,7 +15,7 @@
     headID.appendChild(newScript0);
     var newScript = document.createElement('script');
     newScript.type = 'text/javascript';
-    newScript.src = '../Style Library/SP.Responsive.UI/bundle.min.js?rev=bf19e4f64b204e1ebc2f762e33afcc97';
+    newScript.src = c + '/Style Library/SP.Responsive.UI/bundle.min.js?rev=bf19e4f64b204e1ebc2f762e33afcc98';
     newScript.id = 'PnPResponsiveUI';
     headID.appendChild(newScript);
 }
