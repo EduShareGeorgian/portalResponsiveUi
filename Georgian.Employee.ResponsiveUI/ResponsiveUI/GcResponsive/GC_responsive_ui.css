@@ -489,7 +489,8 @@ body {
     }
     #pageTitle{
 
-        margin-top:-60px !important;
+        margin-top:-80px !important;
+        padding-left:10px;
     }
     #DeltaPlaceHolderSearchArea
     {
@@ -498,6 +499,10 @@ body {
 
     .article-content {
         margin-top: 50px;
+    }
+
+    div.article{
+        padding:10px 10px;
     }
 
 }
@@ -1438,6 +1443,10 @@ a.officeBrowserFeedbackOverallAnchor:hover {
     [class*=" georgian-"]:before {
         position: relative;
         top: 25px;
+    }
+
+    #pageTitle{
+        margin-left:-20px;
     }
 }
 
