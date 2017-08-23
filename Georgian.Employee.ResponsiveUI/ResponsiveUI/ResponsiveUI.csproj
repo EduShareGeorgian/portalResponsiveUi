@@ -104,6 +104,7 @@
     <Content Include="Content\fabric.min.css" />
     <Content Include="Content\fabric.rtl.css" />
     <Content Include="Content\fabric.rtl.min.css" />
+    <Content Include="images\warning-36.png" />
     <Content Include="javascript\checkeditmode.js" />
     <Content Include="CampusSelection\campusSelection.css" />
     <Content Include="javascript\delayLoadImages.js" />
