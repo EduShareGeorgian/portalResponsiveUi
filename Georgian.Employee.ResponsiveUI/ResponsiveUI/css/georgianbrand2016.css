@@ -9,19 +9,12 @@ a:visited {color:#0078d7;}
 a:hover { color: #2a6496;}
 a:active { color: #0078d7;}
 
-/*a:link, a:active, a:visited {
-    color: #004b87;
-	text-decoration: underline;
-}*/
 
 #chrome_ctrl_placeholder a:link, #chrome_ctrl_placeholder a:active, #chrome_ctrl_placeholder a:visited {
     color: #fff;
     /*text-decoration: underline;*/
 }
-/*a:hover {
-    color: #004b87;
-	text-decoration: none;
-}*/
+
 #ArticleHeading {
 	color: white;
     background-color: #004b87;
@@ -37,10 +30,7 @@ a.ArticleHeading:hover {
 .fullWidthImage {
     padding-left: 0 !important;
     padding-right: 0 !important;
-    background-repeat: no-repeat;
-    /*-ms-background-size: cover;*/
-    /*background-size: cover;*/ 
-    /*background-position: bottom center ;*/
+    background-repeat: no-repeat;   
     height:250px; 
     width:100%;
 }
@@ -625,3 +615,29 @@ a.whiteLinks {
     overflow: hidden;
     line-height: 1.2em;
 }
+
+.georgian-styleElement-WarningNote {
+    /*background: #F9F9F9 url(/_layouts/1033/GeorgianBrand/images/warning-36.png) center no-repeat;*/
+    background: #F9F9F9 url(/sites/employee/PublishingImages/warning-36.png) center no-repeat;
+    background-position: 2%50%;
+    text-align: left;
+    color: black;
+    line-height: 1.4em;
+    padding: 2% 4% 2% 9%;
+    margin-bottom: 2%;
+    border-top: 0.1em solid #FF6600;
+    border-bottom: 0.1em solid #ff6600;
+}
+
+.georgian-styleElement-WarningNote {
+   /*background: #F9F9F9 url(/_layouts/1033/GeorgianBrand/images/warning-36.png) center no-repeat;*/
+    background: #F9F9F9 url(/sites/employee/PublishingImages/warning-36.png) center no-repeat;
+    background-position: 2%50%;
+    text-align: left;
+    color: black;
+    line-height: 1.4em;
+    padding: 2% 4% 2% 9%;
+    margin-bottom: 2%;
+    border-top: 0.1em solid #e57200;
+    border-bottom: 0.1em solid #e57200;
+} 
