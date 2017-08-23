@@ -75,6 +75,31 @@ body {
     margin-left: -200px;
 }
 
+#DeltaPlaceHolderMain,#pageTitle
+{
+
+    margin-top:40px;
+}
+#sideNavBox {
+    /*display:none;*/
+}
+.ms-breadcrumb-box {
+    visibility: visible !important;
+}
+.ms-rtestate-read
+{
+
+    margin-top:50px;
+
+}
+
+.article-content
+{
+    margin-top:40px;
+}
+
+
+
 @media only screen and (min-width: 768px) {
     #contentRow {
         /* Start out as collapsed 
@@ -106,6 +131,22 @@ body {
         font-size: large;
         vertical-align: middle;
     }
+    #SearchBox
+    {
+        margin-top:20px !important;
+        top:0px !important;
+
+    }
+    #titleAreaBox
+    {
+        display:table !important;
+    }
+    .ms-tableCell {
+        display:table !important;
+    }
+
+
+
 }
 
 #navbar-toggle {
@@ -297,7 +338,8 @@ body {
     div#searchInputBox, div#searchInputBox div.ms-srch-sb {
         float: none;
         height: 22px;
-        display: block;
+        /*display: block;*/
+        display:inline-flex;
     }
 
         div#searchInputBox div.ms-srch-sb > a {
@@ -440,6 +482,24 @@ body {
     div.ms-dragDropAttract-subtle {
         min-width: auto;
     }
+
+    #SearchBox{
+        margin-top:20px !important;
+        top:20px !important;
+    }
+    #pageTitle{
+
+        margin-top:-60px !important;
+    }
+    #DeltaPlaceHolderSearchArea
+    {
+        display:block !important;
+    }
+
+    .article-content {
+        margin-top: 50px;
+    }
+
 }
 
 /* SETTINGS */
@@ -1490,6 +1550,11 @@ a.officeBrowserFeedbackOverallAnchor:hover {
         top: 50%;
         margin-top: -30px;
     }
+    #SearchBox{
+        margin-top:20px;
+
+
+    }
 }
 
 @media only screen and (min-width : 769px) {
@@ -2234,7 +2299,7 @@ div.QuickLinks .WebPartHeading {
     }
 
     /* Fixing issue with Search Box - Move it on the left and adjust Main Navigation positioning */
-@media only screen and (max-width : 1144px) {
+@media only screen and (max-width : 1144px)  {
 
     /* Undo the crazy shit that SharePoint creates with table display set to DIVs*/
     #s4-titlerow .ms-table,
@@ -2250,23 +2315,25 @@ div.QuickLinks .WebPartHeading {
         position: absolute;
         left: 5px;
         top: 50px;
-        width:200px;
+        width: 200px;
     }
-    .ms-srch-sb > input {  width: 150px;} 
 
-    #siteIcon
-    {
+    .ms-srch-sb > input {
+        width: 150px;
+    }
+
+    #siteIcon {
         margin-right: -200px;
     }
 
     div[data-name="Page Field: CampusDetailsTitle"] {
-    font-size: 2.3em;
-    padding-top: 30px;
-    padding-bottom: 15px;
-    font-weight: 400;
-    color: #333f48;
-    min-height: 45px;
-    background-color: inherit;
+        font-size: 2.3em;
+        padding-top: 30px;
+        padding-bottom: 15px;
+        font-weight: 400;
+        color: #333f48;
+        min-height: 45px;
+        background-color: inherit;
     }
 }
 
@@ -2280,4 +2347,13 @@ div.QuickLinks .WebPartHeading {
     min-height: 45px;
     background-color: inherit;
     }
+}
+
+@media only screen and (max-width : 1144px) and (min-width : 768px){
+
+    #sideNavBox{
+
+        margin-top:40px;
+    }
+
 }
