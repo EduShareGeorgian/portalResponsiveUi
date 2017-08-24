@@ -18,6 +18,7 @@
         -->
         <!--<pnp:File Src="images\warning-36.png" Folder="/PublishingImages" Overwrite="true" /> -->
         <pnp:File Src="images\warning-36.png" Folder="/sites/employee/PublishingImages" Overwrite="true" />
+        <pnp:File Src="images\warning.svg" Folder="/sites/employee/PublishingImages" Overwrite="true" /> <!-- used by emergencybroadcast.js -->
       </pnp:Files>
     </pnp:ProvisioningTemplate>
   </pnp:Templates>
