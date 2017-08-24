@@ -100,12 +100,7 @@ body {
 
 
 
-@media only screen and (min-width: 768px) {
-    #contentRow {
-        /* Start out as collapsed 
-        margin-left: -200px;*/
-    }
-}
+
 
 
 /* Tablet/smartphones common styles for collapsibles */
@@ -145,8 +140,18 @@ body {
         display:table !important;
     }
 
+    #gcMobileMenu ul.root li > ul.static > li.static:hover {
+        background-color: #666;
+        width: 300px;
+        
+    }
 
+    #gcMobileMenu li.selected{
 
+        width:300px;
+    }
+
+    
 }
 
 #navbar-toggle {
@@ -504,6 +509,9 @@ body {
     div.article{
         padding:10px 10px;
     }
+
+
+   
 
 }
 
@@ -1564,6 +1572,23 @@ a.officeBrowserFeedbackOverallAnchor:hover {
 
 
     }
+
+    /* to make the sharepoint employee portal menus look the same as student portal*/
+
+    .ms-core-listMenu-root .static ul.static {
+        margin-left: -30px;
+    }
+
+        .ms-core-listMenu-root .static ul.static li {
+            padding-top: 10px !important;
+            padding-bottom: 10px !important;
+        }
+
+    #gcMobileMenu .ms-core-listMenu-verticalBox {
+        margin-left:0px !important;
+    }
+
+
 }
 
 @media only screen and (min-width : 769px) {
@@ -1656,6 +1681,30 @@ a.officeBrowserFeedbackOverallAnchor:hover {
     min-height: 45px;
     background-color: inherit;
     }
+
+    .ms-core-listMenu-horizontalBox .ms-core-listMenu-root > li.selected > a.menu-item {
+        border-bottom: 3px solid #e57200;
+        box-sizing: initial;
+    }
+
+    .ms-core-listMenu-horizontalBox .ms-core-listMenu-root > li > a.menu-item:hover {
+        border-bottom: 3px solid #e57200;
+    }
+
+
+
+
+
+
+    .ms-core-listMenu-horizontalBox .ms-core-listMenu-root > li > ul > li.selected > a.menu-item {
+        border-bottom: 3px solid #e57200;
+        box-sizing: initial;
+    }
+
+    .ms-core-listMenu-horizontalBox .ms-core-listMenu-root > li > ul > li > a.menu-item:hover {
+        border-bottom: 3px solid #e57200;
+    }
+
 }
 
 
@@ -1911,14 +1960,14 @@ a.officeBrowserFeedbackOverallAnchor:hover {
     box-sizing: initial;
 }
 
-.ms-core-listMenu-horizontalBox .ms-core-listMenu-root > li.selected > a.menu-item {
-    border-bottom: 3px solid #e57200;
-    box-sizing:initial;
-}
+    /*.ms-core-listMenu-horizontalBox .ms-core-listMenu-root > li.selected > a.menu-item {
+        border-bottom: 3px solid #e57200;
+        box-sizing: initial;
+    }
 
-.ms-core-listMenu-horizontalBox .ms-core-listMenu-root > li > a.menu-item:hover{
-    border-bottom: 3px solid #e57200;
-}
+    .ms-core-listMenu-horizontalBox .ms-core-listMenu-root > li > a.menu-item:hover {
+        border-bottom: 3px solid #e57200;
+    }*/
 
 .ms-core-listMenu-horizontalBox .ms-core-listMenu-root > li > a {
     margin-right : 0px !important;
@@ -1930,14 +1979,14 @@ a.officeBrowserFeedbackOverallAnchor:hover {
     width:220px !important;
 }
 
-.ms-core-listMenu-horizontalBox .ms-core-listMenu-root > li > ul > li.selected > a.menu-item {
-    border-bottom: 3px solid #e57200;
-    box-sizing:initial;
-}
+    /*.ms-core-listMenu-horizontalBox .ms-core-listMenu-root > li > ul > li.selected > a.menu-item {
+        border-bottom: 3px solid #e57200;
+        box-sizing: initial;
+    }
 
-.ms-core-listMenu-horizontalBox .ms-core-listMenu-root > li > ul > li > a.menu-item:hover{
-    border-bottom: 3px solid #e57200;
-}
+    .ms-core-listMenu-horizontalBox .ms-core-listMenu-root > li > ul > li > a.menu-item:hover {
+        border-bottom: 3px solid #e57200;
+    }*/
 
 /* Current Navigation */
 .ms-core-listMenu-verticalBox .ms-core-listMenu-root {
@@ -1998,7 +2047,7 @@ li.dynamic > a {
     left: 0;
     top: 50px;
     overflow-y: auto;
-    max-width: 200px;
+    max-width: 300px;
     opacity: 1;
     pointer-events: auto;
     display: block;
@@ -2048,9 +2097,11 @@ li.dynamic > a {
     display: inline-block !important;
 }
 
-#gcMobileMenu ul.root li > div.wrpDiv:hover {
-    background-color: #666;
-}
+    #gcMobileMenu ul.root li > div.wrpDiv:hover {
+        background-color: #666;
+        width: 300px;
+        
+    }
 
 #gcMobileMenu ul.root li ul.dynamic {
     position: relative !important;
@@ -2112,9 +2163,23 @@ li.dynamic > a {
     height:auto;
 }
 
-#gcMobileMenu li.selected {
+/*#gcMobileMenu li.selected {
     background-color: #666;
+}*/
+
+
+#gcMobileMenu > div.ms-displayInline > div.ms-core-listMenu-horizontalBox > ul.root  > li.selected > div.wrpDiv {
+    background-color: #666;
+    width:300px;
+    
 }
+
+#gcMobileMenu > div.ms-displayInline > div.ms-core-listMenu-horizontalBox > ul.root > li > ul > li.selected {
+    background-color: #666;
+    width: 300px;
+}
+
+
 #gcTopNavPanel.unSelMenu {
     display: none;
 }
@@ -2366,3 +2431,5 @@ div.QuickLinks .WebPartHeading {
     }
 
 }
+
+
