@@ -1,17 +1,7 @@
 ﻿emergencyBroadCast();
 /*
- // Require JQuery and AngularJS on the page for this to work
- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/2.0.0-beta.17/angular2.min.js" ></script>
- <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
- */
-//var htmlCode = "<div ng-app=\"EmergencyBroadcast\" class=\"row\">" +
-//    "<div ng-controller=\"spBroadcastController\" class=\"span10\">" +
-//    "<div class=\"ms-Grid gcMessages\" id =\"georgianMessages\">" +
-//    "<div class=\"ms-Grid-row\" id=\"gcMessage{{message.Id}}\" ng-repeat=\"message in messages\">" +
-//    "<div class=\"ms-Grid-col ms-u-sm6 ms-u-md4 ms-u-lg2\" ng-show=\"{{message.Dismiss}}\"><a href=\"#\" ng-click=\"dismissMessage(message.Id)\"><i class=\"ms-Icon ms-Icon--xCircle\"></i></a></div>" +
-//    "<div class=\"ms-Grid-col ms-u-sm6 ms-u-md4 ms-u-lg2\" ng-show=\"{{!message.Dismiss}}\">&nbsp;</div>" +
-//    "<div class=\"ms-Grid-col ms-u-sm6 ms-u-md4 ms-u-lg2\">{{message.Body}}</div>" +
-//    "</div></div></div></div>";
+ Require JQuery and AngularJS on the page for this to work
+*/
 var panelHeight = 51;
 var startPos = 88;
 var cookieBaseName = "GeorgianAnnouncement";
@@ -70,35 +60,8 @@ function removeRow(rowId) {
     //$("#" + rowId).animate({ height: 0 }, 400);
 
     $("#" + rowId).remove();
-    //find the rest of the messages and move them up as well
-    ////var moveIt = false;
-    ////$("div.span10 > .ms-MessageBanner")
-    ////    .each(function () {
-    ////        if (moveIt) {
-    ////            var curPos = $(this).css("top").replace("px", "");
-    ////            curPos -= panelHeight;
-    ////            $(this).animate({ top: curPos + "px" }, 400);
-    ////            //$(this).css("top", curPos + "px");
-    ////        } else {
-    ////            if ($(this).attr("id") == rowId) moveIt = true;
-    ////        }
-    ////    });
-    ////var newTop = $("#contentRow").css("margin-top").replace("px", "") - panelHeight;
-    ////$("#contentRow").animate({ marginTop: newTop + "px" }, 400);
-
+  
 }
-
-
-//function checkTableRows() {
-//    //var rowCount = $("#gcMessageContainer").children().size();
-//    //if (rowCount < 1) {
-//    //    $("#gcMessageContainer").hide();
-//    //}
-//    var rowCount = $("#georgianMessage").children().size();
-//    if (rowCount < 1) {
-//        $("#georgianMessage").hide();
-//    }
-//}
 
 function decodeEntities(encodedString) {
 	var textArea = document.createElement('textarea');
@@ -132,8 +95,7 @@ function closeBanner(clickeditem) {
 function expandCollapse(clickedItem) {
     var $clickedItem = $(clickedItem);
     var $icon = $clickedItem.children("i.ms-Icon");
-    if($clickedItem.hasClass("collapsed")){
-    //if (clickedItem.hasClass("collapsed")) {
+    if($clickedItem.hasClass("collapsed")){  
         $clickedItem.removeClass("collapsed");
         $clickedItem.addClass("expanded");
         // replace the chevron
@@ -218,25 +180,7 @@ function getMessages() {
 	                            item.Title +
 	                            "</h2></span>" +
 	                            getText(item.Body));
-
-	                    //var messageBannerExpand = document.createElement("button");
-	                    //$(messageBannerExpand).attr("id", "expandCollapse" + messageId);
-	                    //$(messageBannerExpand).attr("type", "button");
-	                    //$(messageBannerExpand).addClass("ms-MessageBanner-expand");
-	                    //$(messageBannerExpand).addClass("collapsed");
-	                    //$(messageBannerExpand).css('top', '0');
-	                    //$(messageBannerExpand).css('right', '65px');
-	                    //$(messageBannerExpand).css('line-height', '52px');
-	                    //$(messageBannerExpand).css('display', 'block');
-	                    //$(messageBannerExpand).css('position', 'absolute');
-	                    //$(messageBannerExpand).click(function (event) {
-	                    //    expandCollapse(event.target);
-	                    //});
-
-	                    //var collapseImage = document.createElement("i");
-	                    //$(collapseImage).addClass("ms-Icon");
-	                    //$(collapseImage).addClass("ms-Icon--chevronsDown");
-	                    //$(messageBannerExpand).append(collapseImage);
+	                   
 	                    var closeButtoncontainer = document.createElement("div");
 	                    $(closeButtoncontainer).addClass("buttonContainer");
 	                    var messageBannerClose = document.createElement("button");
@@ -253,9 +197,7 @@ function getMessages() {
 	                    $(closeImage).addClass("ms-Icon--x");
 	                    $(messageBannerClose).append(closeImage);
 
-	                    $(messageBannerText).append(messageBannerClipper);
-	                    //$(messageBannerText).append(messageBannerExpand);
-
+	                    $(messageBannerText).append(messageBannerClipper);	                  
 	                    $(messageBannerContent).append(messageBannerImage);
 	                    $(messageBannerContent).append(messageBannerText);
 
@@ -282,14 +224,7 @@ function getMessages() {
 	        function(error,data, status, headers, config) {
                 console.log("ajax call error");
                 
-	        });
-
-	    //$scope.dismissMessage = function (messageId) {	     
-	    //    var cookieName = 'gcMessage' + messageId;	      
-	    //    setCookie(cookieName, messageId, 1);
-	    //    removeRow(cookieName);
-	    //    checkTableRows();	       
-	    //} 
+	        });	   
 	}]);
 
 }
