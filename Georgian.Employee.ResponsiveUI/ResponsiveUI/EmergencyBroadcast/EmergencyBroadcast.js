@@ -15,14 +15,11 @@ function emergencyBroadCast() {
 	        // enable mobile buttons to receive click events
 
 	        if ($("#" + mesageBaseName).length == 0) {
-
-                $("#s4-bodyContainer #s4-titlerow").after(htmlCode);
-                
+                $("#s4-bodyContainer #s4-titlerow").after(htmlCode);                
 	        }
 
 	        $("#" + mesageBaseName).hide();
-	        getMessages();
-            
+	        getMessages();            
 	    });
 	}
 	else {
@@ -156,8 +153,7 @@ function getMessages() {
 	                    $(messageBanner).attr('id', mesageBaseName + messageId);
 	                    $(messageBanner).addClass('ms-MessageBanner');
 	                    $(messageBanner).addClass('gcMessages');
-	                    $(messageBanner).addClass(importance);
-	                    //$(messageBanner).css('top', curPos + 'px');
+	                    $(messageBanner).addClass(importance);	                  
 	                    curPos += panelHeight;
 
 	                    var messageBannerContent = document.createElement("div");
@@ -211,7 +207,7 @@ function getMessages() {
 	                            .on('click',
 	                                '#closeBanner' + messageId,
 	                                function(event) {
-	                                    closeBanner(event.target);
+	                                    closeBanner(event.currentTarget);
 	                                });
                            
 	                    }
