@@ -1,4 +1,6 @@
-﻿/*@font-face {
+﻿
+
+/*@font-face {
     font-family: "OpenSansRegular";
     src: url('/Style%20Library/SP.REsponsive.UI/fonts/OpenSansRegular.eot');
     src: url('/Style%20Library/SP.REsponsive.UI/fonts/OpenSansRegular.eot') format('embedded-opentype'), url('/Style%20Library/SP.REsponsive.UI/fonts/OpenSansRegular.woff') format('woff'), url('/Style%20Library/SP.REsponsive.UI/fonts/OpenSansRegular.ttf') format('truetype'), url('/Style%20Library/SP.REsponsive.UI/fonts/OpenSansRegular.svg#OpenSansRegular') format('svg');
@@ -151,7 +153,9 @@ body {
         width:300px;
     }
 
-    
+    .ms-core-listMenu-horizontalBox > .ms-core-listMenu-root > .static > .wrpDiv {
+        border-left:10px solid #333;
+    }
 }
 
 #navbar-toggle {
@@ -494,7 +498,7 @@ body {
     }
     #pageTitle{
 
-        margin-top:-80px !important;
+        margin-top:-40px !important;
         padding-left:10px;
     }
     #DeltaPlaceHolderSearchArea
@@ -510,7 +514,9 @@ body {
         padding:10px 10px;
     }
 
-
+    .ms-breadcrumb-box{
+        margin-top:-40px !important;
+    }
    
 
 }
@@ -1705,6 +1711,13 @@ a.officeBrowserFeedbackOverallAnchor:hover {
         border-bottom: 3px solid #e57200;
     }
 
+
+    #gcTopNavPanel {
+        display: none !important;
+    }
+
+
+
 }
 
 
@@ -2432,4 +2445,6 @@ div.QuickLinks .WebPartHeading {
 
 }
 
-
+.ms-core-listMenu-horizontalBox > ul.root > li > div > a {
+    padding-left: 0px !important;
+}
