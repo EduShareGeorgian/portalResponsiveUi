@@ -142,10 +142,10 @@ body {
         display:table !important;
     }
 
-    #gcMobileMenu ul.root li > ul.static > li.static:hover {
-        background-color: #666;
+
+    .ms-core-listMenu-horizontalBox > ul.root > li > ul.static > li.static:hover {
+        background-color: #333f48;
         width: 300px;
-        
     }
 
     #gcMobileMenu li.selected{
@@ -156,6 +156,52 @@ body {
     .ms-core-listMenu-horizontalBox > .ms-core-listMenu-root > .static > .wrpDiv {
         border-left:10px solid #333;
     }
+
+        .ms-core-listMenu-horizontalBox > .ms-core-listMenu-root > .static > .wrpDiv:hover {
+            background-color: #333f48;
+            width: 300px;
+        }
+
+    .ms-core-listMenu-verticalBox > ul.root > li.static:hover{
+        background-color:#44505b !important;
+        width:300px;
+
+    }
+
+    .ms-core-listMenu-verticalBox > ul.root > li.selected {
+        background-color: #44505b;
+    }
+
+    
+    /* to make the sharepoint employee portal menus look the same as student portal*/
+
+    .ms-core-listMenu-root .static ul.static {
+        margin-left: -30px;
+    }
+
+    
+    .ms-core-listMenu-horizontalBox > ul.root > li > ul.static > li.static {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+
+
+    #gcMobileMenu .ms-core-listMenu-verticalBox {
+        margin-left: 0px !important;
+    }
+
+
+    #gcMobileMenu > div.ms-displayInline > div.ms-core-listMenu-horizontalBox > ul.root > li.selected > div.wrpDiv {
+        background-color: #333f48;
+        width: 300px;
+    }
+
+    #gcMobileMenu > div.ms-displayInline > div.ms-core-listMenu-horizontalBox > ul.root > li > ul > li.selected {
+        background-color: #333f48;
+        width: 300px;
+    }
+
+
 }
 
 #navbar-toggle {
@@ -1579,20 +1625,7 @@ a.officeBrowserFeedbackOverallAnchor:hover {
 
     }
 
-    /* to make the sharepoint employee portal menus look the same as student portal*/
-
-    .ms-core-listMenu-root .static ul.static {
-        margin-left: -30px;
-    }
-
-        .ms-core-listMenu-root .static ul.static li {
-            padding-top: 10px !important;
-            padding-bottom: 10px !important;
-        }
-
-    #gcMobileMenu .ms-core-listMenu-verticalBox {
-        margin-left:0px !important;
-    }
+    
 
 
 }
@@ -1982,11 +2015,18 @@ a.officeBrowserFeedbackOverallAnchor:hover {
         border-bottom: 3px solid #e57200;
     }*/
 
-.ms-core-listMenu-horizontalBox .ms-core-listMenu-root > li > a {
+/*.ms-core-listMenu-horizontalBox .ms-core-listMenu-root > li > a {
     margin-right : 0px !important;
     padding-left:15px;
     padding-right:15px;
-}
+}*/
+
+
+    .ms-core-listMenu-horizontalBox .ms-core-listMenu-root > li > a {
+        margin-right: 20px !important;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 
 .ms-core-listMenu-horizontalBox .ms-core-listMenu-root > li > ul {
     width:220px !important;
@@ -2075,7 +2115,7 @@ li.dynamic > a {
 }
 
 #gcMobileMenu .wrpDiv {
-    width: 200px;
+    /*width: 200px;*/
     height: 40px;
 }
 
@@ -2110,11 +2150,7 @@ li.dynamic > a {
     display: inline-block !important;
 }
 
-    #gcMobileMenu ul.root li > div.wrpDiv:hover {
-        background-color: #666;
-        width: 300px;
-        
-    }
+    
 
 #gcMobileMenu ul.root li ul.dynamic {
     position: relative !important;
@@ -2181,16 +2217,7 @@ li.dynamic > a {
 }*/
 
 
-#gcMobileMenu > div.ms-displayInline > div.ms-core-listMenu-horizontalBox > ul.root  > li.selected > div.wrpDiv {
-    background-color: #666;
-    width:300px;
-    
-}
 
-#gcMobileMenu > div.ms-displayInline > div.ms-core-listMenu-horizontalBox > ul.root > li > ul > li.selected {
-    background-color: #666;
-    width: 300px;
-}
 
 
 #gcTopNavPanel.unSelMenu {
