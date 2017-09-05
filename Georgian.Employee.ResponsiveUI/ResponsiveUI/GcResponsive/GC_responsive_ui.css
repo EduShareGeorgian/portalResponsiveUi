@@ -201,6 +201,18 @@ body {
         width: 300px;
     }
 
+    /* till here works in employee portal*/
+
+    #DeltaTopNavigation_mobileClone.syncStudent div.ms-core-listMenu-horizontalBox > ul.root > li.selected {
+        background-color: #333f48;
+        width: 300px;
+    }
+
+    #gcMobileMenu .syncStudent .ms-core-listMenu-verticalBox {
+        
+        border-left:10px solid #333;
+    }
+
 
 }
 
@@ -2474,4 +2486,9 @@ div.QuickLinks .WebPartHeading {
 
 .ms-core-listMenu-horizontalBox > ul.root > li > div > a {
     padding-left: 0px !important;
+}
+
+
+#DeltaTopNavigation .ms-core-listMenu-horizontalBox > ul.root > li:first-child{
+    padding-left:20px;
 }

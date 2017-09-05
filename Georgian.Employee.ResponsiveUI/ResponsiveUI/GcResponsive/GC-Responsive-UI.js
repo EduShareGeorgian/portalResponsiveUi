@@ -182,6 +182,13 @@ PnPResponsiveApp.init = function () {
       // Override H2 tag
       $(".h2").css("color", "black");
 
+      // adding special class for top level element in student portal
+      if ($("#DeltaTopNavigation_mobileClone .ms-core-listMenu-horizontalBox > ul.root > li").length > 1)
+      {
+          $("#DeltaTopNavigation_mobileClone").addClass("syncStudent");
+
+      }
+
     });
   }
 }
