@@ -56,6 +56,7 @@ body {
 #contentRow {
     /* Start out as collapsed 
     margin-left: -200px;*/
+    margin-top: 50px;
 }
 
 /* Make sure dialog windows don't break */
@@ -128,11 +129,9 @@ body {
         font-size: large;
         vertical-align: middle;
     }
-    #SearchBox
-    {
-        margin-top:20px !important;
-        top:0px !important;
-
+    #SearchBox {
+        margin-top: -70px !important;
+        /*top:-70px !important;*/
     }
     #titleAreaBox
     {
@@ -333,6 +332,10 @@ body {
     td.ms-cellstyle .ms-list-itemLink {
         height: auto;
     }
+    #SearchBox{
+
+        left:-20px !important;
+    }
 }
 
 /* Smartphones */
@@ -487,6 +490,8 @@ body {
     /* Main content panel */
     #contentRow {
         padding-top: 0;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     #contentBox {
@@ -551,8 +556,8 @@ body {
     }
 
     #SearchBox{
-        margin-top:20px !important;
-        top:20px !important;
+        margin-top:-80px !important;
+        top:-80px !important;
     }
     #pageTitle{
 
@@ -701,6 +706,7 @@ body {
 
 #contentRow {
     padding-top: 13px;
+    
 }
 
 #SearchBox {
@@ -2438,9 +2444,9 @@ div.QuickLinks .WebPartHeading {
     #SearchBox {
         border: 1px solid #dddddd;
         display: block;
-        position: absolute;
+        position: relative;
         left: 5px;
-        top: 50px;
+        /*top: 50px;*/
         width: 200px;
     }
 

@@ -1,4 +1,4 @@
-﻿emergencyBroadCast();
+﻿//emergencyBroadCast();
 /*
  Require JQuery and AngularJS on the page for this to work
 */
@@ -7,27 +7,27 @@ var startPos = 88;
 var cookieBaseName = "GeorgianAnnouncement";
 var mesageBaseName = "georgianMessage";
 
-var htmlCode =  "<div ng-app=\"EmergencyBroadcast\" class=\"row\"><div ng-controller=\"spBroadcastController\" class=\"span10\"></div></div>";
+var htmlCode =  "<div id=\"one\" class=\"row\"><div ng-controller=\"spBroadcastController\" class=\"span10\"></div></div>";
 
-function emergencyBroadCast() {
-	if (window.$ && typeof angular != "undefined") {
-	    $(document).ready(function () {
-	        // enable mobile buttons to receive click events
+(function emergencyBroadCast() {
+    if (window.$ && typeof angular != "undefined") {
+        $(document).ready(function () {
+            // enable mobile buttons to receive click events
 
-	        if ($("#" + mesageBaseName).length == 0) {
-                $("#s4-bodyContainer #s4-titlerow").after(htmlCode);                
-	        }
+            if ($("#" + mesageBaseName).length == 0) {
+                $("#s4-bodyContainer #s4-titlerow").before(htmlCode);
+            }
 
-	        $("#" + mesageBaseName).hide();
-	        getMessages();            
-	    });
-	}
-	else {
-        
+            $("#" + mesageBaseName).hide();
+            getMessages();
+        });
+    }
+    else {
+
         window.setTimeout(emergencyBroadCast, 50);
 
-	};
-}
+    };
+})();
 
 function getCookie(cookieName) {
     var name = cookieName + "=";
@@ -109,16 +109,18 @@ function expandCollapse(clickedItem) {
 
 function getMessages() {
     
-	angular.element(document).ready(function () {  
-	    angular.bootstrap(document, ["georgianCollegeMessages"]);
+    angular.element(document).ready(function () {        
+        angular.bootstrap($('#one'), ['georgianCollegeMessagestest']);        
 	});
 
-    angular.module("georgianCollegeMessages", []).controller("spBroadcastController", ['$scope','$http', function ($scope, $http) {
+    
+
+    angular.module("georgianCollegeMessagestest", []).controller("spBroadcastController", ['$scope','$http', function ($scope, $http) {
 	    $http({
 	            method: 'GET',
 	            url: /*_spPageContextInfo.webAbsoluteUrl +*/
 	                "/_api/web/lists/getByTitle('ImportantAnnouncements')/items?$select=Id,Title,Body,Expires,Dismiss,Importance,Status&$filter=Expires ge'" +
-	                new Date().toISOString() +
+	                new Date(2017,01,10).toISOString() +
 	                "'",
 	            headers: { "Accept": "application/json;odata=verbose" }
 	        })
