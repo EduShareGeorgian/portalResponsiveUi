@@ -16,6 +16,10 @@ param
     [String]
     $TargetSiteUrl,
 
+    [Parameter(Mandatory = $true, HelpMessage="Enter the root URL of the assets, e.g. 'https://intranet.mydomain.com/CDN")]
+    [String]
+    $AssetRootUrl,
+
     [Parameter(Mandatory = $false, HelpMessage="Enter the URL of the infrastructural site collection, if any. It is an optional parameter. Values are like: 'https://intranet.mydomain.com/sites/infrastructureSite'")]
     [String]
     $InfrastructureSiteUrl,
@@ -35,6 +39,12 @@ if ($InfrastructureSiteUrl -eq "")
     $InfrastructureSiteUrl = $TargetSiteUrl
 }
 
+# If the Asset Root URL is not provided, we will fallback to the Target Site URL Style Library
+if ($AssetRootUrl -eq "") 
+{
+    $AssetRootUrl = "$TargetSiteUrl/Style%20Library/"
+}
+
 if($Credentials -eq $null)
 {
 	$Credentials = Get-Credential -Message "Enter Admin Credentials"
@@ -46,6 +56,7 @@ Write-Host -ForegroundColor White "---------------------------------------------
 
 Write-Host -ForegroundColor Yellow "Target Site URL: $targetSiteUrl"
 Write-Host -ForegroundColor Yellow "Infrastructure Site URL: $InfrastructureSiteUrl"
+Write-Host -ForegroundColor Yellow "Asset Root URL: $AssetRootUrl"
 
 try
 {
@@ -55,7 +66,7 @@ try
 		Apply-SPOProvisioningTemplate -Path .\01-Responsive.UI.Infrastructure.xml -Handlers Files
 
 		Connect-SPOnline $TargetSiteUrl -Credentials $Credentials
-		Apply-SPOProvisioningTemplate -Path .\02-Responsive.UI.Template.xml -Handlers CustomActions,Features -Parameters @{"InfrastructureSiteUrl"=$InfrastructureSiteUrl}
+		Apply-SPOProvisioningTemplate -Path .\02-Responsive.UI.Template.xml -Handlers CustomActions,Features -Parameters @{"InfrastructureSiteUrl"=$InfrastructureSiteUrl; "AssetRootUrl"=$AssetRootUrl} 
 	}
 	else
 	{
@@ -63,7 +74,7 @@ try
 		Apply-SPOProvisioningTemplate -Path .\01-Responsive.UI.Infrastructure.debug.xml -Handlers Files
 
 		Connect-SPOnline $TargetSiteUrl -Credentials $Credentials
-		Apply-SPOProvisioningTemplate -Path .\02-Responsive.UI.Template.debug.xml -Handlers CustomActions,Features -Parameters @{"InfrastructureSiteUrl"=$InfrastructureSiteUrl}
+		Apply-SPOProvisioningTemplate -Path .\02-Responsive.UI.Template.debug.xml -Handlers CustomActions,Features -Parameters @{"InfrastructureSiteUrl"=$InfrastructureSiteUrl; "AssetRootUrl"=$AssetRootUrl} 
 	}
     Write-Host -ForegroundColor Green "Responsive UI application succeeded"
 }

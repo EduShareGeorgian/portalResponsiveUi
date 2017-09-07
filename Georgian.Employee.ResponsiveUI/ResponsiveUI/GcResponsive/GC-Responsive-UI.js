@@ -148,8 +148,8 @@ PnPResponsiveApp.init = function () {
 
         addViewport();
 
-        loadCSS(currentScriptBaseUrl + 'fabric.components.min.css');
-        loadCSS(currentScriptBaseUrl + 'fabric.min.css');
+        //loadCSS(currentScriptBaseUrl + 'fabric.components.min.css');
+        //loadCSS(currentScriptBaseUrl + 'fabric.min.css');
 
         //loadScript(currentScriptBaseUrl + 'angular.js', null);
         
