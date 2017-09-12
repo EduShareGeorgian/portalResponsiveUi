@@ -9,9 +9,12 @@
     <pnp:ProvisioningTemplate ID="PNP-RESPONSIVE-UI-OVERRIDES" Version="1">
       <pnp:CustomActions>
         <pnp:SiteCustomActions>
-          <pnp:CustomAction Name="PnPResponsiveUI" Location="ScriptLink" Sequence="0" Rights="" ScriptSrc="{parameter:InfrastructureSiteUrl}/CDN/javascript/GC_Branding_Debug.js" >
+          <pnp:CustomAction Name="PnPResponsiveUI" Location="ScriptLink" Sequence="0" Rights="" ScriptSrc="{parameter:AssetRootUrl}/javascript/GC_Branding_Debug.js?rev=1" >
             <pnp:CommandUIExtension />
           </pnp:CustomAction>          
+          <pnp:CustomAction Name="PnPResponsiveUI_glbcdnRootUrl" Location="ScriptLink" Sequence="0" Rights="" ScriptBlock="const ResponsiveUI = { AssetRootUrl:&quot;{parameter:AssetRootUrl}&quot;};&#xD;&#xA;" >
+            <pnp:CommandUIExtension />
+          </pnp:CustomAction>
           <pnp:CustomAction Name="PnPResponsiveUI_cdnRootUrl" Location="ScriptLink" Sequence="0" Rights="" ScriptBlock="loadScriptAndStyleDependencies(&quot;{parameter:AssetRootUrl}&quot;);&#xD;&#xA;" >
             <pnp:CommandUIExtension />
           </pnp:CustomAction>

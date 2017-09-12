@@ -16,7 +16,7 @@ param
     [String]
     $TargetSiteUrl,
 
-    [Parameter(Mandatory = $true, HelpMessage="Enter the root URL of the assets, e.g. 'https://intranet.mydomain.com/CDN")]
+    [Parameter(Mandatory = $true, HelpMessage="Enter the root URL of the assets, e.g. 'https://publiccdn.sharepointonline.com/thiles.sharepoint.com/14040033b4f6b1a6f03c075519ad75ca44124f164adb1cfef060edaf37947426c6cba09a")]
     [String]
     $AssetRootUrl,
 

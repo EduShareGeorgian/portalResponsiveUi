@@ -120,7 +120,7 @@ function getMessages() {
 	            method: 'GET',
 	            url: /*_spPageContextInfo.webAbsoluteUrl +*/
 	                "/_api/web/lists/getByTitle('ImportantAnnouncements')/items?$select=Id,Title,Body,Expires,Dismiss,Importance,Status&$filter=Expires ge'" +
-	                new Date(2017,01,10).toISOString() +
+	                new Date().toISOString() +
 	                "'",
 	            headers: { "Accept": "application/json;odata=verbose" }
 	        })
@@ -150,7 +150,7 @@ function getMessages() {
 	                    var messageId = item.Id;
 	                    var dismissable = item.Dismiss;
 	                    var importance = item.Importance.toLowerCase();
-	                    var imagePath = /*_spPageContextInfo.webAbsoluteUrl +*/ "/PublishingImages/";
+                        var imagePath = /*_spPageContextInfo.webAbsoluteUrl +*/ ResponsiveUI.AssetRootUrl + "/images/";
 	                    var messageBanner = document.createElement("div");
 	                    $(messageBanner).attr('id', mesageBaseName + messageId);
 	                    $(messageBanner).addClass('ms-MessageBanner');

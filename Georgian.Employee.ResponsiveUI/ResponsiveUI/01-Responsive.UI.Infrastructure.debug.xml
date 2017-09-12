@@ -28,8 +28,11 @@
             the file path should be /sites/employee/PublishingImages - needs to be tested with that
         -->
         <!--<pnp:File Src="images\warning-36.png" Folder="/PublishingImages" Overwrite="true" /> -->
-        <pnp:File Src="images\warning-36.png" Folder="/sites/employee/PublishingImages" Overwrite="true" />
-        <pnp:File Src="images\warning.svg" Folder="/sites/employee/PublishingImages" Overwrite="true" /> <!-- used by emergencybroadcast.js -->        
+        <!--<pnp:File Src="images\warning-36.png" Folder="/sites/employee/PublishingImages" Overwrite="true" />
+        <pnp:File Src="images\warning.svg" Folder="/sites/employee/PublishingImages" Overwrite="true" />--> <!-- used by emergencybroadcast.js -->
+        <pnp:File Src="images\warning.svg" Folder="CDN/images" Overwrite="true" />
+        <pnp:File Src="images\information.svg" Folder="CDN/images" Overwrite="true" />
+        <pnp:File Src="images\critical.svg" Folder="CDN/images" Overwrite="true" />
         <pnp:File Src="javascript\GC_Branding_Debug.js" Folder="CDN/javascript" Overwrite="true" />
         <pnp:File Src="Content\fabric.components.min.css" Folder="CDN/css" Overwrite="true" />
         <pnp:File Src="Content\fabric.min.css" Folder="CDN/css" Overwrite="true" />

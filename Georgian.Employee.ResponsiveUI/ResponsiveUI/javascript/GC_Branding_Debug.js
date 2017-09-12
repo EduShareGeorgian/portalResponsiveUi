@@ -1,10 +1,8 @@
 ﻿function loadScriptAndStyleDependencies(assetRootUrl) {
-    var rootScriptUrl = assetRootUrl + "javascript";
-    var rootStyleUrl = assetRootUrl + "css";
+    var rootScriptUrl = assetRootUrl + "/javascript";
+    var rootStyleUrl = assetRootUrl + "/css";
     if ((window.location.href.indexOf('/_layouts') < 0 || (window.location.href.indexOf('/_layouts') >= 0 && window.location.href.indexOf('start.aspx#') >= 0)) && window.location.href.indexOf('/_catalogs') < 0 && window.location.href.indexOf('admin=1') < 0 && window.location.href.indexOf('AllItems.aspx') < 0 && window.location.href.indexOf('DispForm.aspx') < 0 && window.location.href.indexOf('EditForm.aspx') < 0 && window.location.href.indexOf('AllPages.aspx') < 0) {
-        //var a = window.location.href.indexOf("sites");
-        //var b = window.location.href.indexOf("/", a + 6);
-        //var c = window.location.href.substring(0, b);
+        
         document.write('<link id="gc_responsive_ui_css" rel="stylesheet" href="' + rootStyleUrl + '/GC_responsive_ui.css?rev=8" /><link id="fabric_components_min_css" rel="stylesheet" href="' + rootStyleUrl + '/fabric.components.min.css?rev=9" /><link id="fabric_min_css" rel="stylesheet" href="' + rootStyleUrl + '/fabric.min.css?rev=10" /> <link rel="stylesheet" href="' + rootStyleUrl + '/EmergencyBroadcast.css?rev=8" /> <link rel="stylesheet" href="' + rootStyleUrl + '/georgianicon.css?rev=8" /> <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-js/1.3.0/css/fabric.min.css" /> ');
         var headID = document.getElementsByTagName('head')[0];
         var newScript0 = document.createElement('script');
