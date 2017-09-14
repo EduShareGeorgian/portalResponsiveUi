@@ -10,7 +10,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{BCDB7246-43C6-4D24-A40C-0D13BA1C372C}</ProjectGuid>
+    <ProjectGuid>{E3187F04-F084-4AE3-8E4C-9EE314BCC6D2}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -95,52 +95,88 @@
     <Content Include="bundle.min.js">
       <DependentUpon>bundle.js</DependentUpon>
     </Content>
-    <Content Include="campusSelection.css" />
-    <Content Include="campusSelection.js" />
-    <Content Include="checkeditmode.js" />
-    <Content Include="delayLoadImages.js" />
-    <Content Include="EmergencyBroadcast.js" />
+    <Content Include="CampusSelection\campusSelection.js" />
+    <Content Include="Content\fabric.components.css" />
+    <Content Include="Content\fabric.components.min.css" />
+    <Content Include="Content\fabric.components.rtl.css" />
+    <Content Include="Content\fabric.components.rtl.min.css" />
+    <Content Include="Content\fabric.css" />
+    <Content Include="Content\fabric.min.css" />
+    <Content Include="Content\fabric.rtl.css" />
+    <Content Include="Content\fabric.rtl.min.css" />
+    <Content Include="images\warning-36.png" />
+    <Content Include="images\warning.svg" />
+    <Content Include="javascript\checkeditmode.js" />
+    <Content Include="CampusSelection\campusSelection.css" />
+    <Content Include="javascript\delayLoadImages.js" />
+    <Content Include="EmergencyBroadcast\EmergencyBroadcast.js" />
     <Content Include="Fonts\georgian.svg" />
     <Content Include="Fonts\OpenSansBold.svg" />
     <Content Include="Fonts\OpenSansExtraBold.svg" />
     <Content Include="Fonts\OpenSansRegular.svg" />
-    <Content Include="GC-Responsive-UI.js" />
-    <Content Include="GC_responsive_ui.css" />
-    <Content Include="georgianicon.css" />
-    <Content Include="PageLayouts\GC Portal Home.aspx" />
-    <Content Include="PageLayouts\GC Portal Home.html" />
+    <Content Include="GcResponsive\GC-Responsive-UI.js" />
+    <Content Include="GcResponsive\GC_responsive_ui.css" />
+    <Content Include="css\georgianicon.css" />
+    <Content Include="javascript\GC_Branding_Debug.js" />
+    <Content Include="javascript\GC_Branding_Prod.js" />
     <Content Include="redirecthomepage.js" />
-    <Content Include="Scripts\angular-mocks.js" />
-    <Content Include="Scripts\angular.js" />
-    <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\Announcements.js" />
+    <Content Include="Scripts\jquery.fabric.js" />
+    <Content Include="Scripts\jquery.fabric.min.js" />
     <Content Include="Scripts\linkify-jquery.min.js" />
     <Content Include="Scripts\linkify-string.min.js" />
     <Content Include="Scripts\linkify.min.js" />
-    <Content Include="EmergencyBroadcast.css" />
-    <Content Include="summarylinks.css" />
-    <Content Include="summarylinks.js" />
-    <Content Include="georgianuserprofileproperties.js" />
+    <Content Include="EmergencyBroadcast\EmergencyBroadcast.css" />
+    <Content Include="SummaryLinks\summarylinks.css" />
+    <Content Include="SummaryLinks\summarylinks.js" />
+    <Content Include="javascript\georgianuserprofileproperties.js" />
     <None Include="bundleconfig.json" />
     <Content Include="Fonts\georgian.eot" />
     <Content Include="Fonts\georgian.ttf" />
     <Content Include="Fonts\georgian.woff" />
-    <Content Include="Scripts\angular.min.js.map" />
-    <None Include="Scripts\jquery-2.2.3.intellisense.js" />
-    <Content Include="georgianfeedback.js" />
-    <Content Include="georgian_sharepoint_chrome.js" />
-    <Content Include="hide_app_part.js" />
+    <Content Include="javascript\georgianfeedback.js" />
+    <Content Include="javascript\georgian_sharepoint_chrome.js" />
+    <Content Include="javascript\hide_app_part.js" />
     <Content Include="redirect.js" />
-    <Content Include="resize_app_part.js" />
-    <Content Include="Scripts\jquery-2.2.3.js" />
-    <Content Include="Scripts\jquery-2.2.3.min.js" />
-    <Content Include="Scripts\jquery.fabric.js" />
-    <Content Include="Scripts\jquery.fabric.min.js" />
+    <Content Include="javascript\resize_app_part.js" />
+    <Content Include="Content\sass\_Office.Color.Variables.scss" />
+    <Content Include="Content\sass\_Fabric.ZIndex.Variables.scss" />
+    <Content Include="Content\sass\_Fabric.Utilities.scss" />
+    <Content Include="Content\sass\_Fabric.Typography.Variables.scss" />
+    <Content Include="Content\sass\_Fabric.Typography.scss" />
+    <Content Include="Content\sass\_Fabric.Typography.Language.Overrides.scss" />
+    <Content Include="Content\sass\_Fabric.Typography.Fonts.scss" />
+    <Content Include="Content\sass\_Fabric.Responsive.Variables.scss" />
+    <Content Include="Content\sass\_Fabric.Responsive.Utilities.Variables.scss" />
+    <Content Include="Content\sass\_Fabric.Mixins.scss" />
+    <Content Include="Content\sass\_Fabric.Mixins.RTL.scss" />
+    <Content Include="Content\sass\_Fabric.Icons.scss" />
+    <Content Include="Content\sass\_Fabric.Grid.scss" />
+    <Content Include="Content\sass\_Fabric.Common.scss" />
+    <Content Include="Content\sass\_Fabric.Color.Variables.scss" />
+    <Content Include="Content\sass\_Fabric.Color.Mixins.scss" />
+    <Content Include="Content\sass\_Fabric.Animations.scss" />
+    <Content Include="Content\sass\_Fabric.Animations.RTL.scss" />
+    <Content Include="Content\sass\Fabric.Utilities.Output.scss" />
+    <Content Include="Content\sass\Fabric.Typography.Output.scss" />
+    <Content Include="Content\sass\Fabric.Typography.Language.Overrides.Output.scss" />
+    <Content Include="Content\sass\Fabric.Typography.Fonts.Output.scss" />
+    <Content Include="Content\sass\Fabric.scss" />
+    <Content Include="Content\sass\Fabric.RTL.scss" />
+    <Content Include="Content\sass\Fabric.Responsive.Utilities.Output.scss" />
+    <Content Include="Content\sass\Fabric.Icons.RTL.Output.scss" />
+    <Content Include="Content\sass\Fabric.Icons.Output.scss" />
+    <Content Include="Content\sass\Fabric.Icons.Font.Output.scss" />
+    <Content Include="Content\sass\Fabric.Grid.Output.scss" />
+    <Content Include="Content\sass\Fabric.Components.scss" />
+    <Content Include="Content\sass\Fabric.Color.Mixins.Output.scss" />
+    <Content Include="Content\sass\Fabric.Animations.RTL.Output.scss" />
+    <Content Include="Content\sass\Fabric.Animations.Output.scss" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Disable-SPResponsiveUI.ps1" />
     <Content Include="Enable-SPResponsiveUI.ps1" />
-    <Content Include="georgianbrand2016.css" />
+    <Content Include="css\georgianbrand2016.css" />
     <Content Include="README.MD" />
   </ItemGroup>
   <ItemGroup>
@@ -163,112 +199,11 @@
     <Content Include="Fonts\OpenSansRegular.woff" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\sass\_Office.Color.Variables.scss" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Content\sass\_Fabric.ZIndex.Variables.scss" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Content\sass\_Fabric.Utilities.scss" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Content\sass\_Fabric.Typography.Variables.scss" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Content\sass\_Fabric.Typography.scss" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Content\sass\_Fabric.Typography.Language.Overrides.scss" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Content\sass\_Fabric.Typography.Fonts.scss" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Content\sass\_Fabric.Responsive.Variables.scss" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Content\sass\_Fabric.Responsive.Utilities.Variables.scss" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Content\sass\_Fabric.Mixins.scss" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Content\sass\_Fabric.Mixins.RTL.scss" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Content\sass\_Fabric.Icons.scss" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Content\sass\_Fabric.Grid.scss" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Content\sass\_Fabric.Common.scss" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Content\sass\_Fabric.Color.Variables.scss" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Content\sass\_Fabric.Color.Mixins.scss" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Content\sass\_Fabric.Animations.scss" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Content\sass\_Fabric.Animations.RTL.scss" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Content\sass\Fabric.Utilities.Output.scss" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Content\sass\Fabric.Typography.Output.scss" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Content\sass\Fabric.Typography.Language.Overrides.Output.scss" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Content\sass\Fabric.Typography.Fonts.Output.scss" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Content\sass\Fabric.scss" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Content\sass\Fabric.RTL.scss" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Content\sass\Fabric.Responsive.Utilities.Output.scss" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Content\sass\Fabric.Icons.RTL.Output.scss" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Content\sass\Fabric.Icons.Output.scss" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Content\sass\Fabric.Icons.Font.Output.scss" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Content\sass\Fabric.Grid.Output.scss" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Content\sass\Fabric.Components.scss" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Content\sass\Fabric.Color.Mixins.Output.scss" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Content\sass\Fabric.Animations.RTL.Output.scss" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Content\sass\Fabric.Animations.Output.scss" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="packages.config">
       <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="Scripts\jquery-2.2.3.min.map" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

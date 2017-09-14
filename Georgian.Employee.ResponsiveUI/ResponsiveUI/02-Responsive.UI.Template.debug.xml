@@ -1,0 +1,30 @@
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2015/12/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=2.1.1602.0, Culture=neutral, PublicKeyToken=null">
+    <pnp:Parameters>
+      <pnp:Parameter Key="InfrastructureSiteUrl" Required="true" />
+      <pnp:Parameter Key="AssetRootUrl" Required="true" />
+    </pnp:Parameters>
+  </pnp:Preferences>
+  <pnp:Templates ID="CONTAINER-PNP-RESPONSIVE-UI-OVERRIDES">
+    <pnp:ProvisioningTemplate ID="PNP-RESPONSIVE-UI-OVERRIDES" Version="1">
+      <pnp:CustomActions>
+        <pnp:SiteCustomActions>
+          <pnp:CustomAction Name="PnPResponsiveUI" Location="ScriptLink" Sequence="0" Rights="" ScriptSrc="{parameter:AssetRootUrl}/javascript/GC_Branding_Debug.js?rev=1" >
+            <pnp:CommandUIExtension />
+          </pnp:CustomAction>          
+          <pnp:CustomAction Name="PnPResponsiveUI_glbcdnRootUrl" Location="ScriptLink" Sequence="0" Rights="" ScriptBlock="const ResponsiveUI = { AssetRootUrl:&quot;{parameter:AssetRootUrl}&quot;};&#xD;&#xA;" >
+            <pnp:CommandUIExtension />
+          </pnp:CustomAction>
+          <pnp:CustomAction Name="PnPResponsiveUI_cdnRootUrl" Location="ScriptLink" Sequence="0" Rights="" ScriptBlock="loadScriptAndStyleDependencies(&quot;{parameter:AssetRootUrl}&quot;);&#xD;&#xA;" >
+            <pnp:CommandUIExtension />
+          </pnp:CustomAction>
+         </pnp:SiteCustomActions>
+      </pnp:CustomActions>
+      <pnp:Features>
+        <pnp:WebFeatures>
+          <pnp:Feature Deactivate="true" ID="d95c97f3-e528-4da2-ae9f-32b3535fbb59" Description="Mobile Browser View"/>
+        </pnp:WebFeatures>
+      </pnp:Features>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>

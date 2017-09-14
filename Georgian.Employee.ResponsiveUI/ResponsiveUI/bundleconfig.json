@@ -1,0 +1,26 @@
+[
+  {
+    "outputFileName": "bundle.js",
+    "inputFiles": [
+      "GcResponsive\\GC-Responsive-UI.js",
+      "javascript\\delayLoadImages.js",
+      "javascript\\georgianfeedback.js",
+      "javascript\\checkeditmode.js",
+      "javascript\\georgianuserprofileproperties.js",
+      "EmergencyBroadcast\\EmergencyBroadcast.js",         
+      "javascript\\hide_app_part.js",
+      "CampusSelection\\campusSelection.js"
+    ]
+  },
+  {
+    "outputFileName": "bundle.css",
+    "inputFiles": [
+      "GcResponsive\\GC_responsive_ui.css",
+      "SummaryLinks\\summarylinks.css",
+      "css\\georgianicon.css",
+      "css\\georgianbrand2016.css",
+      "EmergencyBroadcast\\EmergencyBroadcast.css",
+      "CampusSelection\\campusSelection.css"
+    ]
+  }
+]

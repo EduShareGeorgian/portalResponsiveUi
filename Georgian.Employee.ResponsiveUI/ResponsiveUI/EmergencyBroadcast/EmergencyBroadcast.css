@@ -1,0 +1,116 @@
+.gcMessages {
+    text-align: left !important;
+    font-size: 1.3em;
+	min-width: initial !important;
+    /*display: inline-block;*/
+    /*position: fixed !important;*/
+    /*box-shadow: 0 0 10px #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);*/
+    /*border: 1px solid #000000;*/
+    /*overflow: hidden;*/
+}
+.gcAnnouncementTitle h2 {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+.ms-MessageBanner-clipper {
+    text-overflow: clip !important;
+    white-space: normal !important;
+	font-size: 16px !important;
+}
+@media screen and (max-width: 480px) {
+    .ms-MessageBanner-clipper {
+        padding-left: 35px !important;
+    }
+	.gcAnnouncementImage {
+		display: none !important;
+	}
+	
+}
+@media screen and (min-width: 481px) {
+    .ms-MessageBanner-clipper {
+        padding-left: 100px !important;
+    }
+}
+.ms-MessageBanner-text {
+    padding: 16px !important;
+    width: 90% !important;
+    max-width: 100% !important;
+}
+
+.ms-MessageBanner {
+    height:auto !important;
+    text-align: left !important;
+}
+.ms-MessageBanner-close, .ms-MessageBanner-expand {
+    height: auto !important;
+}
+
+.gcMessages .gcAnnouncementTitle {
+    font-family: "Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 1.25em;
+    font-weight: 600;   
+    line-height: 2;
+        /*color: #0078D7;*/        
+}
+
+.gcMessages.critical {
+    background-color: #ff2828 !important;
+    background-color: rgba(255, 40, 40, 1) !important;
+    color: #ffffff !important;
+}
+
+.gcMessages.warning {
+    background-color: #f3d03e !important;
+    background-color: rgba(243, 208, 62, 1) !important;
+    color: #000000 !important;
+}
+
+.gcMessages.information {
+    background-color: #64a70b !important;
+    background-color: rgba(100, 167, 11, 1) !important;
+    color: #ffffff !important;
+}
+.gcMessages button[disabled] {
+    background-color: transparent !important;
+    cursor: default !important;
+}
+.gcMessages .buttonContainer {
+    top: 0 !important;
+    width: 52px !important;
+    right: 0 !important;
+    line-height: 52px !important;
+    float: right !important;
+    position: absolute !important;
+}
+.gcAnnouncementImage {
+    position: absolute !important;
+    top: 50% !important;
+    left: 60px !important;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    height: 40px !important;
+    -ms-opacity: 0.6 !important;
+    opacity: 0.6 !important;
+}
+
+
+div[ng-app="EmergencyBroadcast"]{
+    margin-left: 0px !Important;
+    margin-right: 0px !important;
+}
+
+@media screen and (max-width: 479px){
+.ms-MessageBanner-text {
+    padding: 18px 0 10px;
+	min-width: initial !important;
+}
+}
+
+.ms-MessageBanner-content {
+    position:relative;
+}
+/*
+.buttonContainer {
+    overflow: hidden;
+}*/

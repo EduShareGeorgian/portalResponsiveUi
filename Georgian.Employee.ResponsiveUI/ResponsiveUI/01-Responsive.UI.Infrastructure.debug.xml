@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2015/12/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=2.1.1602.1, Culture=neutral, PublicKeyToken=3751622786b357c2" />
+  <pnp:Templates ID="CONTAINER-PNP-RESPONSIVE-UI-INFRASTRUCTURE">
+    <pnp:ProvisioningTemplate ID="PNP-RESPONSIVE-UI-INFRASTRUCTURE" Version="1">
+      <pnp:Files>
+        <pnp:File Src="GcResponsive\GC-Responsive-UI.js" Folder="CDN/javascript" Overwrite="true" />
+        <pnp:File Src="GcResponsive\GC_responsive_ui.css" Folder="CDN/css" Overwrite="true" />
+        <pnp:File Src="css\georgianbrand2016.css" Folder="CDN/css" Overwrite="true" />
+        <pnp:File Src="css\georgianicon.css" Folder="CDN/css" Overwrite="true" />
+        <pnp:File Src="SummaryLinks\summarylinks.css" Folder="CDN/css" Overwrite="true" />    
+        <pnp:File Src="javascript\georgian_sharepoint_chrome.js" Folder="CDN/javascript" Overwrite="true" />
+        <pnp:File Src="javascript\resize_app_part.js" Folder="CDN/javascript" Overwrite="true" />
+        <pnp:File Src="javascript\hide_app_part.js" Folder="CDN/javascript" Overwrite="true" />
+        <pnp:File Src="javascript\georgianfeedback.js" Folder="CDN/javascript" Overwrite="true" />
+        <pnp:File Src="EmergencyBroadcast\EmergencyBroadcast.js" Folder="CDN/javascript" Overwrite="true" />
+        <pnp:File Src="EmergencyBroadcast\EmergencyBroadcast.css" Folder="CDN/css" Overwrite="true" />
+        <pnp:File Src="javascript\checkeditmode.js" Folder="CDN/javascript" Overwrite="true" />
+        <pnp:File Src="javascript\delayLoadImages.js" Folder="CDN/javascript" Overwrite="true" />
+        <pnp:File Src="javascript\georgianuserprofileproperties.js" Folder="CDN/javascript" Overwrite="true" />
+        <pnp:File Src="CampusSelection\campusSelection.css" Folder="CDN/css" Overwrite="true" />
+        <pnp:File Src="CampusSelection\campusSelection.js" Folder="CDN/javascript" Overwrite="true" />                      
+        <pnp:File Src="fonts\georgian.eot" Folder="CDN/fonts" Overwrite="true" />
+        <pnp:File Src="fonts\georgian.svg" Folder="CDN/fonts" Overwrite="true" />
+        <pnp:File Src="fonts\georgian.ttf" Folder="CDN/fonts" Overwrite="true" />
+        <pnp:File Src="fonts\georgian.woff" Folder="CDN/fonts" Overwrite="true" />
+        <!--the commented line below is for testing on my local tenant - for employee portal i think 
+            the file path should be /sites/employee/PublishingImages - needs to be tested with that
+        -->
+        <!--<pnp:File Src="images\warning-36.png" Folder="/PublishingImages" Overwrite="true" /> -->
+        <!--<pnp:File Src="images\warning-36.png" Folder="/sites/employee/PublishingImages" Overwrite="true" />
+        <pnp:File Src="images\warning.svg" Folder="/sites/employee/PublishingImages" Overwrite="true" />--> <!-- used by emergencybroadcast.js -->
+        <pnp:File Src="images\warning.svg" Folder="CDN/images" Overwrite="true" />
+        <pnp:File Src="images\information.svg" Folder="CDN/images" Overwrite="true" />
+        <pnp:File Src="images\critical.svg" Folder="CDN/images" Overwrite="true" />
+        <pnp:File Src="javascript\GC_Branding_Debug.js" Folder="CDN/javascript" Overwrite="true" />
+        <pnp:File Src="Content\fabric.components.min.css" Folder="CDN/css" Overwrite="true" />
+        <pnp:File Src="Content\fabric.min.css" Folder="CDN/css" Overwrite="true" />
+
+        
+      </pnp:Files>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>
