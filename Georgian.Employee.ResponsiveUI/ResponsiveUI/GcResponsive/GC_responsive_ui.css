@@ -27,13 +27,13 @@ body {
 }
 
 .ms-rtePosition-2, .ms-rtePosition-1 {
-    width: 100%;
+    /*width: 100%;*/
     height: auto;
     display: block;
 }
 
-.ms-rtestate-field div{
-    padding:0px !important;
+.ms-rtestate-field > div:not([class]) {
+    padding: 0px !important; /**/
 }
 
 #s4-workspace, iframe {
