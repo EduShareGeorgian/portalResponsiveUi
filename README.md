@@ -1,3 +1,5 @@
+This project has been archived because Georgian College has fully migrated to SharePoint Online and shutdown it's local SharePoint 2013 instance. In SharePoint Online we have switched from "classic pages" which didn't support responsive UI without the excellent work within this repository to the new "modern pages" which do support responsive UI out of the box.
+
 # Georgian College SharePoint 2013/2016 Responsive UI #
 This is the Georgian College implementation of the  Responsive UI for a 
 Site Collection in Microsoft SharePoint 2013/2016 on-premises.
